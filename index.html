@@ -94,6 +94,125 @@
       background-color: #444;
       border-radius: 15px;
     }
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000000;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .shadow-navbar {
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(145deg, #000000, #000000);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            position: relative;
+        }
+
+        .shadow-navbar::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            z-index: -1;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .shadow-navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 50px;
+        }
+
+        .shadow-navbar ul li {
+            position: relative;
+            display: inline-block;
+        }
+
+        .shadow-navbar ul li a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .shadow-navbar ul li a i {
+            font-size: 30px;
+            margin-bottom: 5px;
+            transition: transform 0.4s ease;
+        }
+
+        .shadow-navbar ul li a span {
+            margin-top: 5px;
+            font-size: 16px;
+            transition: all 0.4s ease;
+            opacity: 0.8;
+        }
+
+        .shadow-navbar ul li a:hover i {
+            transform: scale(1.3);
+            color: #FFFFFF;
+        }
+
+        .shadow-navbar ul li a:hover span {
+            color: #FFFFFF;
+            opacity: 1;
+            font-weight: bold;
+        }
+
+        .shadow-navbar ul li a:hover::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 5px 15px rgba(0, 255, 255, 0.4);
+            z-index: -1;
+            transition: all 0.3s ease;
+        }
+
+        .shadow-navbar ul li::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: -8px;
+            width: 0;
+            height: 3px;
+            background-color: #FFFFFF;
+            border-radius: 5px;
+            transition: all 0.4s ease;
+        }
+
+        .shadow-navbar ul li:hover::after {
+            width: 80%;
+            left: 10%;
+        }
+    </style>
+
   </style>
 </head>
 
@@ -198,13 +317,16 @@
     <ul class="navbar">
 
        <li class="icon"><img src="images/icon.png"/></li>
-      <li class="nav-item">
-          <a href="home.html" class="nav-link"><i class="fa-solid fa-plus" width="45" height="35"></i>Home</a>
-  <a href="games.html" class="nav-link"><i class="fa-solid fa-gamepad" width="45" height="35"></i>Games</a>
-  <a href="apps.html" class="nav-link"><i class="fa-solid fa-th-large" width="45" height="35"></i>Apps</a>
-  <a href="settings.html" class="nav-link"><i class="fa-solid fa-cog" width="45" height="35"></i>Settings</a>
-  <a href="music.html" class="nav-link"><i class="fa-solid fa-music" width="45" height="35"></i>Music</a>
-</div>
+   </head>
+<body>
+    <nav class="shadow-navbar">
+        <ul>
+            <li><a href="#"><i class="fas fa-th"></i> <span>Apps</span></a></li>
+            <li><a href="#"><i class="fas fa-gamepad"></i> <span>Games</span></a></li>
+            <li><a href="#"><i class="fas fa-cog"></i> <span>Settings</span></a></li>
+        </ul>
+    </nav>
+
 
    
     </ul>

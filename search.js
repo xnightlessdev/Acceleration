@@ -21,12 +21,24 @@ function search(input, template) {
     // only if the hostname has a TLD/subdomain
     if (url.hostname.includes(".")) return url.toString();
   } catch (err) {
-    // input was not valid URL
   }
 
-  // input may have been a valid URL, however the hostname was invalid
 
-  // Attempts to convert the input to a fully qualified URL have failed
-  // Treat the input as a search query
+
   return template.replace("%s", encodeURIComponent(input));
 }
+document.getElementById("searchApps").addEventListener("input", function() {
+    let filter = this.value.toLowerCase();
+
+    let gameCards = document.querySelectorAll(".card");
+
+    gameCards.forEach(card => {
+        let gameTitle = card.getAttribute("data-title").toLowerCase();
+
+        if (gameTitle.includes(filter)) {
+            card.style.display = "";  
+        } else {
+            card.style.display = "none"; 
+        }
+    });
+});

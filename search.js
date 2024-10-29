@@ -25,14 +25,3 @@ function search(input, template) {
 
 
 
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("searchApps").addEventListener("input", function() {
-        let filter = this.value.toLowerCase();
-        let gameCards = document.querySelectorAll(".card");
-
-        gameCards.forEach(card => {
-            let gameTitle = card.getAttribute("data-title").toLowerCase();
-            card.style.display = gameTitle.includes(filter) ? "" : "none";
-        });
-    });
-});

@@ -25,20 +25,14 @@ function search(input, template) {
 
 
 
-  return template.replace("%s", encodeURIComponent(input));
-}
-document.getElementById("searchApps").addEventListener("input", function() {
-    let filter = this.value.toLowerCase();
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("searchApps").addEventListener("input", function() {
+        let filter = this.value.toLowerCase();
+        let gameCards = document.querySelectorAll(".card");
 
-    let gameCards = document.querySelectorAll(".card");
-
-    gameCards.forEach(card => {
-        let gameTitle = card.getAttribute("data-title").toLowerCase();
-
-        if (gameTitle.includes(filter)) {
-            card.style.display = "";  
-        } else {
-            card.style.display = "none"; 
-        }
+        gameCards.forEach(card => {
+            let gameTitle = card.getAttribute("data-title").toLowerCase();
+            card.style.display = gameTitle.includes(filter) ? "" : "none";
+        });
     });
 });

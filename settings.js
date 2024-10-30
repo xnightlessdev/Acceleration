@@ -5,7 +5,7 @@ function onSaveTheme() {
 }
 function applyTheme(theme) {
     const element = document.querySelector("body");
-    const themes = ["oceanic", "galaxy", "gaming", "cyberpunk", "techno", "hacker", "midnight", "crimson", "halloween" , "sunset"] ;; // Add "default" to the list
+    const themes = ["oceanic", "galaxy", "gaming", "cyberpunk", "techno", "hacker", "midnight", "crimson", "halloween" , "sunset" , "ruby" , "noctura" , "sapphire" , "light"] ;; // Add "default" to the list
     // Remove all theme classes except for 'default'
     themes.forEach(themeClass => {
         if (themeClass !== theme) {

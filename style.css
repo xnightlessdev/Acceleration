@@ -78,8 +78,23 @@ body.crimson{
   --text-color: crimson;
   --accent-color: black;
   --accent-color-dark: black;
+
+bodyt.halloween {
+  --background-color: #0b0b0f; 
+  --text-color: #ffd1b3; 
+    --accent-color: #ffb300; 
+    --accent-color: #ffb300; 
+
 }
-/* Navbar styles */
+  body.sunset {
+  --background-color: #2c061f;
+  --proxy-background: #450920;
+  --border: #d1421b;    
+  --text-color: #f0c3b0;
+  --accent-color: #ff784e;
+}
+
+
 ul.navbar {
   list-style-type: none;
   margin: 0;

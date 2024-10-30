@@ -7,134 +7,106 @@
 }
 
 body {
-  font-family: var(font-family);
+  font-family: var(--font-family);
   background-image: url('images/bg.png');
   background-repeat: no-repeat;
   background-color: var(--background-color);
-  background-size:  100%;
+  background-size: 100%;
   margin: 0 auto;
   overflow-y: auto;
-  color: var(text-color); /* Set text color to white */
+  color: var(--text-color);
 }
-/* Techno Theme */
+
+/* Themes */
 body.techno {
   --background-color: blue;
   --text-color: purple;
   --accent-color: green; 
   --accent-color-light: black;
 }
-/* Oceanic Theme */
+
 body.oceanic {
-   --background-color: #1c233a;
-  --background: #2e355e;
-  --border: #555a8c;
+  --background-color: #1c233a;
   --text-color: #e6e6f4;
   --accent-color: #4560e2;
 }
-/* Hacker Theme */
+
 body.hacker {
- --background-color: #000000;
-  --background: #1a1a1a; 
-  --border: #00ff00d6; 
+  --background-color: #000000;
   --text-color: #ffffff;
   --accent-color: #00e676;
 }
-/* Galaxy Theme */
+
 body.galaxy {
   --background-color: purple;
-    --text-color: black;
+  --text-color: black;
   --accent-color: white; 
-  --accent-color-light: blue; 
-  --star-color: #FFFFFF;
-  --nebula-color: #a2bedb;
-
+  --accent-color-light: blue;
 }
-/* Cyberpunk Theme */
+
 body.cyberpunk {
   --background-color: #ff00ff;
-    --text-color: #00ff00;
+  --text-color: #00ff00;
   --accent-color: purple;
-  --accent-color-light: black; 
-
+  --accent-color-light: black;
 }
-/* Midnight Theme */
-body.midnight{
+
+body.midnight {
   --background-color: #0d1021;
-  --tab-background: #191e3d;
-  --border: #6f7ff1;
   --text-color: #ffffff;
   --accent-color: #eebbc3;
-
 }
-/* Gaming Theme */
+
 body.gaming {
   --background-color: #800080;
   --text-color: #ffcc00;
   --accent-color: red; 
   --accent-color-light: black;
-
 }
-/* Crimson Theme */
-body.crimson{
-  --background-color:  black;
+
+body.crimson {
+  --background-color: black;
   --text-color: crimson;
   --accent-color: black;
-  --accent-color-dark: black;
-  }
-
-  
-/* Halloween Theme */
-bodyt.halloween {
-  --background-color: #0b0b0f; 
-  --text-color: #ffd1b3; 
-    --accent-color: #ffb300; 
-    --accent-color: #ffb300; 
-
 }
-/* Sunset Theme */
-  body.sunset {
+
+body.halloween {
+  --background-color: #0b0b0f;
+  --text-color: #ffd1b3;
+  --accent-color: #ffb300;
+}
+
+body.sunset {
   --background-color: #2c061f;
-  --proxy-background: #450920;
-  --border: #d1421b;    
   --text-color: #f0c3b0;
   --accent-color: #ff784e;
 }
-/* Light Theme */
-  body.light {
+
+body.light {
   --background-color: #1c1c38;
-  --background: #262648;
-  --border: #4d4d86;
   --text-color: #ffffff;
   --accent-color: #6c3da3;
 }
-/* Noctura Theme */
-  body.noctura {
+
+body.noctura {
   --background-color: #0b0b1a;
-  --background: #0b0b1a;
-  --border: #6161c7;
   --text-color: #ccc;
   --accent-color: #9fb2ff;
 }
-/* Sapphire Theme */
-  body.sapphire {
+
+body.sapphire {
   --background-color: #010a13;
-  --proxy-background: #010f1a;
-  --border: #00b3ff; 
-  --text-color: #e0f7ff; 
-  --accent-color: #00d4ff; 
+  --text-color: #e0f7ff;
+  --accent-color: #00d4ff;
 }
-/* Ruby Theme */
-  body.ruby {
+
+body.ruby {
   --background-color: #1a0002;
-  --background: #240001;
-  --border: #663838;
   --text-color: #e6e6e6;
   --accent-color: #b50909;
 }
-  
 
-
-
+/* Navbar */
 ul.navbar {
   list-style-type: none;
   margin: 0;
@@ -145,105 +117,71 @@ ul.navbar {
   top: 0;
   left: 0;
 }
+
 li.nav-item img {
   width: 50%;
-  color: var(text-color); /* Set color to white */
+  color: var(--text-color);
   display: block;
   transition: all 1s;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
+
 li.nav-item {
   float: right;
   cursor: pointer !important;
 }
+
 li.nav-item img:hover {
   background-color: #444;
   border-radius: 15px;
 }
 
-/* .settings-container {
-
-  max-width: 600px;
-
-  margin: auto;
-
-} */
-
+/* Panel and Settings Container */
 .panel {
-
   background-color: var(--accent-color);
-
   border-radius: 8px;
-
   padding: 20px;
-
   color: #b7b7b7;
-
-  margin: 0.5%; /* Spacing between panels */
-
-  display: table; 
+  margin: 0.5%;
+  display: table;
   box-sizing: border-box;
-
   width: 48%;
-
   font-family: Arial;
-
 }
 
 .panel label {
-
   display: block;
-
   margin-bottom: 10px;
-
   font-weight: bold;
-
   color: var(--text-color);
 }
 
-.panel input,
-
-.panel select,
-
-.panel button {
-
+.panel input, .panel select, .panel button {
   width: 100%;
-
   padding: 10px;
-
-  margin-bottom: 10px; /* Spacing between form elements */
-
+  margin-bottom: 10px;
   border-radius: 5px;
-
 }
 
 .panel button {
-
   background-color: var(--accent-color-light);
-
   border: none;
-
   color: var(--text-color);
-
   cursor: pointer;
-
   margin-bottom: 110px;
-
 }
 
 .panel button:hover {
-
   background-color: #666;
-
 }
 
 .settings-container {
   padding-top: 100px;
-  width: 100%; 
+  width: 100%;
   margin: 0;
-  display: flex;   
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -252,4 +190,3 @@ li.nav-item img:hover {
 input {
   box-sizing: border-box;
 }
-

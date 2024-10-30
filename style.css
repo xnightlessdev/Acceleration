@@ -80,7 +80,10 @@ body.crimson{
   --text-color: crimson;
   --accent-color: black;
   --accent-color-dark: black;
+  }
 
+  
+/* Halloween Theme */
 bodyt.halloween {
   --background-color: #0b0b0f; 
   --text-color: #ffd1b3; 
@@ -88,6 +91,7 @@ bodyt.halloween {
     --accent-color: #ffb300; 
 
 }
+/* Sunset Theme */
   body.sunset {
   --background-color: #2c061f;
   --proxy-background: #450920;
@@ -95,6 +99,7 @@ bodyt.halloween {
   --text-color: #f0c3b0;
   --accent-color: #ff784e;
 }
+/* Light Theme */
   body.light {
   --background-color: #1c1c38;
   --background: #262648;
@@ -102,6 +107,7 @@ bodyt.halloween {
   --text-color: #ffffff;
   --accent-color: #6c3da3;
 }
+/* Noctura Theme */
   body.noctura {
   --background-color: #0b0b1a;
   --background: #0b0b1a;
@@ -109,6 +115,7 @@ bodyt.halloween {
   --text-color: #ccc;
   --accent-color: #9fb2ff;
 }
+/* Sapphire Theme */
   body.sapphire {
   --background-color: #010a13;
   --proxy-background: #010f1a;
@@ -116,6 +123,7 @@ bodyt.halloween {
   --text-color: #e0f7ff; 
   --accent-color: #00d4ff; 
 }
+/* Ruby Theme */
   body.ruby {
   --background-color: #1a0002;
   --background: #240001;

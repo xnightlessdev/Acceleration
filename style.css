@@ -25,18 +25,19 @@ body.techno {
 }
 /* Oceanic Theme */
 body.oceanic {
-  --background-color: #00adb5;
-  --text-color: #ffffff;
-  --accent-color: blue; 
-  --accent-color-light: #414141; 
+   --background-color: #1c233a;
+  --background: #2e355e;
+  --border: #555a8c;
+  --text-color: #e6e6f4;
+  --accent-color: #4560e2;
 }
 /* Hacker Theme */
 body.hacker {
-  --background-color: #000;
-    --text-color: #0f0; /* Green text color */
-  --font-family: 'Courier New', monospace; /* Monospace font */
-  --accent-color: purple; 
-  --accent-color-light: grey;
+ --background-color: #000000;
+  --background: #1a1a1a; 
+  --border: #00ff00d6; 
+  --text-color: #ffffff;
+  --accent-color: #00e676;
 }
 /* Galaxy Theme */
 body.galaxy {
@@ -58,10 +59,11 @@ body.cyberpunk {
 }
 /* Midnight Theme */
 body.midnight{
-  --background-color: #2c3e50;
-    --text-color: #ecf0f1;
-  --accent-color: black;
-  --accent-color-light: black;
+  --background-color: #0d1021;
+  --tab-background: #191e3d;
+  --border: #6f7ff1;
+  --text-color: #ffffff;
+  --accent-color: #eebbc3;
 
 }
 /* Gaming Theme */
@@ -93,6 +95,36 @@ bodyt.halloween {
   --text-color: #f0c3b0;
   --accent-color: #ff784e;
 }
+  body.light {
+  --background-color: #1c1c38;
+  --background: #262648;
+  --border: #4d4d86;
+  --text-color: #ffffff;
+  --accent-color: #6c3da3;
+}
+  body.noctura {
+  --background-color: #0b0b1a;
+  --background: #0b0b1a;
+  --border: #6161c7;
+  --text-color: #ccc;
+  --accent-color: #9fb2ff;
+}
+  body.sapphire {
+  --background-color: #010a13;
+  --proxy-background: #010f1a;
+  --border: #00b3ff; 
+  --text-color: #e0f7ff; 
+  --accent-color: #00d4ff; 
+}
+  body.ruby {
+  --background-color: #1a0002;
+  --background: #240001;
+  --border: #663838;
+  --text-color: #e6e6e6;
+  --accent-color: #b50909;
+}
+  
+
 
 
 ul.navbar {

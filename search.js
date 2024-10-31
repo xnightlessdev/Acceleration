@@ -21,14 +21,25 @@ function search(input, template) {
     // only if the hostname has a TLD/subdomain
     if (url.hostname.includes(".")) return url.toString();
   } catch (err) {
-  }
-  document.getElementById("searchApps").addEventListener("input", function () {
+document.getElementById("searchApps").addEventListener("input", function () {
   const searchTerm = this.value.toLowerCase();
   const gameCards = document.querySelectorAll(".card");
 
   gameCards.forEach((card) => {
-    const gameTitle = card.querySelector("br").nextSibling.textContent.trim().toLowerCase();
-    card.style.display = gameTitle.includes(searchTerm) ? "block" : "none";
+    // Assuming each title is inside an element with a specific class name (e.g., .card-title)
+    const gameTitleElement = card.querySelector(".card-title"); 
+    
+    if (gameTitleElement) {
+      const gameTitle = gameTitleElement.textContent.trim().toLowerCase();
+      
+      if (gameTitle.includes(searchTerm)) {
+        card.style.display = "block";
+      } else {
+        card.style.display = "none";
+      }
+    } else {
+      console.warn("Game title element not found in card:", card);
+    }
   });
 });
 

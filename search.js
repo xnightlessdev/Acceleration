@@ -26,7 +26,7 @@ function search(input, template) {
 
 document.addEventListener('DOMContentLoaded', function() {
   const searchInput = document.getElementById('searchApps');
-  const appCards = document.querySelectorAll('.app-card'); // Ensure this class matches your HTML structure
+  const appCards = document.querySelectorAll('.app-card'); 
 
   searchInput.addEventListener('input', function() {
     const searchTerm = searchInput.value.toLowerCase();

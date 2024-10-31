@@ -22,5 +22,14 @@ function search(input, template) {
     if (url.hostname.includes(".")) return url.toString();
   } catch (err) {
   }
+  document.getElementById("searchApps").addEventListener("input", function () {
+  const searchTerm = this.value.toLowerCase();
+  const gameCards = document.querySelectorAll(".card");
+
+  gameCards.forEach((card) => {
+    const gameTitle = card.querySelector("br").nextSibling.textContent.trim().toLowerCase();
+    card.style.display = gameTitle.includes(searchTerm) ? "block" : "none";
+  });
+});
 
 

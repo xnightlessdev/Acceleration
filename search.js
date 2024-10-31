@@ -21,26 +21,41 @@ function search(input, template) {
     // only if the hostname has a TLD/subdomain
     if (url.hostname.includes(".")) return url.toString();
   } catch (err) {
-document.getElementById("searchApps").addEventListener("input", function () {
-  const searchTerm = this.value.toLowerCase();
-  const gameCards = document.querySelectorAll(".card");
+}
+const searchInput = document.getElementById('searchApps');
+searchInput.addEventListener('input', handleSearch);
+function handleSearch() {
+  const searchTerm = searchInput.value.toLowerCase();
+  const gameLinks = document.querySelectorAll('.card');
 
-  gameCards.forEach((card) => {
-    // Assuming each title is inside an element with a specific class name (e.g., .card-title)
-    const gameTitleElement = card.querySelector(".card-title"); 
-    
-    if (gameTitleElement) {
-      const gameTitle = gameTitleElement.textContent.trim().toLowerCase();
-      
-      if (gameTitle.includes(searchTerm)) {
-        card.style.display = "block";
-      } else {
-        card.style.display = "none";
-      }
+  gameLinks.forEach((link) => {
+    const gameName = link.textContent.toLowerCase();
+    if (gameName.includes(searchTerm)) {
+      link.style.display = 'block';
     } else {
-      console.warn("Game title element not found in card:", card);
+      link.style.display = 'none';
     }
   });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('searchApps');
+  const appCards = document.querySelectorAll('.app-card');
+
+  searchInput.addEventListener('input', function() {
+    const searchTerm = searchInput.value.toLowerCase();
+
+    appCards.forEach(card => {
+      const appName = card.textContent.toLowerCase();
+      if (appName.includes(searchTerm)) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
 });
+
+
 
 

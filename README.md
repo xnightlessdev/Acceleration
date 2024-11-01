@@ -1,4 +1,4 @@
-# Shadow Network V3 A fast tab cloaking with hundreds of games to play and apps
+# Acceleration V1 A fast tab cloaking with hundreds of games to play and apps
 ## Features:
 - Advanced Tab Cloaking
 - Advanced About:Blank Cloaking (prevents site from showing on browser history)
@@ -10,7 +10,8 @@
 - Best theme backround
 - Best proxy alive
 - Most useful Methods and Cheats
-- Widgetbot 
+- Widgetbot
+- Music
 ## Contributors:
 [![Contrib](https://contrib.rocks/image?repo=Shadowproxynetwork/Shadownetwork)](https://github.com/Shadowproxynetwork/Shadownetwork/graphs/contributors)
 

@@ -1,18 +1,17 @@
 # Acceleration V1 A fast tab cloaking with hundreds of games to play and apps
 ## Features:
-🕶️ Advanced Tab Cloaking: Seamlessly switch between tasks without a trace.
-🚫 About
-Cloaking: Total privacy control – keep your browsing off the history radar.
-🎨 Customization Galore: Explore endless themes, unique backgrounds, and adjustable layouts for a personalized experience.
-✨ Ultra-Clean User Interface: Navigate easily with a sleek and intuitive design.
-⚡ Blazing Fast Speeds: Enjoy quick load times and smooth browsing, wherever you are.
-🌍 Global Proxy Network: Access proxies from around the world for unrestricted internet freedom.
-📱 Extensive App & Game Library: Discover a vast collection of popular apps and games at your fingertips.
-🌈 Stunning Background Themes: Choose from a wide array of vibrant themes to enhance your setup.
-🔒 Unmatched Proxy Reliability: Connect with confidence using the best proxy solutions available.
-🛠️ Powerful Tools & Cheats: Unlock unique methods and tricks for enhanced browsing and productivity.
-💬 Widgetbot Integration: Connect, chat, and collaborate seamlessly right in the app.
-🎶 Built-In Music Player: Add a soundtrack to your experience and make browsing even cooler!
+- 🕶️ Advanced Tab Cloaking: Seamlessly switch between tasks without a trace.
+- 🚫 About Cloaking: Total privacy control – keep your browsing off the history radar.
+- 🎨 Customization Galore: Explore endless themes, unique backgrounds, and adjustable layouts for a personalized experience.
+- ✨ Ultra-Clean User Interface: Navigate easily with a sleek and intuitive design.
+- ⚡ Blazing Fast Speeds: Enjoy quick load times and smooth browsing, wherever you are.
+- 🌍 Global Proxy Network: Access proxies from around the world for unrestricted internet freedom.
+- 📱 Extensive App & Game Library: Discover a vast collection of popular apps and games at your fingertips.
+- 🌈 Stunning Background Themes: Choose from a wide array of vibrant themes to enhance your setup.
+- 🔒 Unmatched Proxy Reliability: Connect with confidence using the best proxy solutions available.
+- 🛠️ Powerful Tools & Cheats: Unlock unique methods and tricks for enhanced browsing and productivity.
+- 💬 Widgetbot Integration: Connect, chat, and collaborate seamlessly right in the app.
+- 🎶 Built-In Music Player: Add a soundtrack to your experience and make browsing even cooler!
 ## Contributors:
 [![Contrib](https://contrib.rocks/image?repo=Shadowproxynetwork/Shadownetwork)](https://github.com/Shadowproxynetwork/Shadownetwork/graphs/contributors)
 

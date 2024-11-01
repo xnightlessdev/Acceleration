@@ -27,4 +27,4 @@
 [![Deploy to Amplify Console](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/amplifyconsole.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/Shadowproxynetwork/Shadownetwork)
 
 ## Join our Discord!
-[Acceleration](https://discord.gg/Kvwzdt4WzJ)
+[Acceleration](https://invidget.switchblade.xyz/sWPHCdxCPU?theme=dark)(https://discord.gg/Kvwzdt4WzJ)

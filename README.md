@@ -12,6 +12,7 @@
 - 🛠️ Powerful Tools & Cheats: Unlock unique methods and tricks for enhanced browsing and productivity.
 - 💬 Widgetbot Integration: Connect, chat, and collaborate seamlessly right in the app.
 - 🎶 Built-In Music Player: Add a soundtrack to your experience and make browsing even cooler!
+- testing link: https://shadowaccerltion.netlify.app/
 ## Contributors:
 [![Contrib](https://contrib.rocks/image?repo=Shadowproxynetwork/Shadownetwork)](https://github.com/Shadowproxynetwork/Shadownetwork/graphs/contributors)
 

@@ -49,7 +49,7 @@ body {
   white-space: nowrap;
   border-right: 4px solid #fff;
   animation: animate 5s linear infinite;
-  filter: drop-shadow(0 0 20px purple) drop-shadow(0 0 50px purple);
+  filter: drop-shadow(0 0 20px red) drop-shadow(0 0 50px red);
 }
 
 @keyframes animate {

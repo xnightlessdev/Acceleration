@@ -1,4 +1,6 @@
-# Acceleration V1 A fast tab cloaking with hundreds of games to play and apps
+# Acceleration V1 Experience the global internet using Acceleration, the most Accelerated Proxy in the world The best looking proxy there is with Apps and tab cloaking and over 100+ games for students
+
+
 ## Features:
 - 🕶️ Advanced Tab Cloaking: Seamlessly switch between tasks without a trace.
 - 🚫 About Cloaking: Total privacy control – keep your browsing off the history radar.
@@ -29,6 +31,6 @@
 [![Deploy to Amplify Console](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/amplifyconsole.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/Shadowproxynetwork/Shadownetwork)
 
 ## Join our Discord!
-[Acceleration](https://discord.gg/Kvwzdt4WzJ)  [![Join us on Discord](https://invidget.switchblade.xyz/Kvwzdt4WzJ?theme=dark)](https://discord.gg/Kvwzdt4WzJ)
+[![Join us on Discord](https://invidget.switchblade.xyz/Kvwzdt4WzJ?theme=dark)](https://discord.gg/Kvwzdt4WzJ)
 
 

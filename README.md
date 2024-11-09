@@ -1,6 +1,6 @@
 # Acceleration 
 <p align="center">
-  <img src="https://github.com/xdevnightless/Acceleration/raw/main/favicon.png" alt="Favicon" width="600" height="600">
+  <img src="https://github.com/xdevnightless/Acceleration/raw/main/favicon.png" alt="Favicon" width="300" height="300">
 </p>
 
 > [!IMPORTANT]

@@ -15,7 +15,8 @@
 - 💬 Widgetbot Integration: Connect, chat, and collaborate seamlessly right in the app.
 - 🎶 Built-In Music Player: Add a soundtrack to your experience and make browsing even cooler!
 - testing link: https://shadowaccerltion.netlify.app/
-## Credits:
+## Credits: A huge thanks goes out to all of the people who have contributed to Acceleration.
+
 ![Contrib](https://contrib.rocks/image?repo=Shadowproxynetwork/Shadownetwork) <a href="https://github.com/xdevnightless/Acceleration/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=xdevnightless/Acceleration" />
 </a>

@@ -1,6 +1,7 @@
 # Acceleration V1 Experience the global internet using Acceleration, the most Accelerated Proxy in the world The best looking proxy there is with Apps and tab cloaking and over 100+ games for students
-![Favicon](https://github.com/xdevnightless/Acceleration/raw/main/favicon.png)
-
+<p align="center">
+  <img src="https://github.com/xdevnightless/Acceleration/raw/main/favicon.png" alt="Favicon" height="200">
+</p>
 
 > [!IMPORTANT]
 > If you fork this project, consider giving it a star in the original repository!

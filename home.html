@@ -18,7 +18,7 @@ document.getElementById("searchform").addEventListener("submit", function(event)
     });
 </script>
 <div title="Ultraviolet Logo" class="logo-wrapper">
-  <h1  data-text="&nbsp;Acceleration" class="text">&nbsp;Acceleration</h1>
+  <h1  data-text="&nbsp;Acceleration" class="text" id="title">&nbsp;Acceleration</h1>
 </div>
 <b>
 </b>
@@ -56,60 +56,11 @@ document.getElementById("searchform").addEventListener("submit", function(event)
   --background-color: #0f0f0f;
   --highlight-color: #ff0077;
 }
- #title {
-  width: 100%;
-  position: absolute;
-  bottom: 90%;
-  left: 0;
-  text-align: center;
-  font-size: 3rem;
-  font-weight: bold;
-  color: var(--primary-color);
-  text-shadow: 3px 6px 10px var(--secondary-color), 0 0 20px var(--highlight-color);
-  letter-spacing: 2px;
-  animation: glow 2s infinite alternate;
-}
-  #searchbar{
-    height: 50px;
-    width: 70%;
-    position: absolute;
-    bottom: 45%;
-    left: 15%;
-    padding:3px;
-    border-radius: 15px;
-    background: transparent;
-    border: 2px solid black;
-    text-align: center;
-    color:var(--primary-color);
-    border:3px solid var(--primary-color);
-    transition: all 1s;
-    filter: drop-shadow(0 0 20px #151414) drop-shadow(0 0 50px #151414);
-  }
-  #searchbar:hover{
-    transform: translateY(-5%);
-    background-color: #151414;
-  }
-  #searchbar::placeholder{
-    color:var(--primary-color);
-  }
-body {
-  background: url("background.webp") no-repeat center center fixed;
-  background-size: cover;
-  background-image: url("backgrouond.webp");
-  font-family: "Inter", sans-serif;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: var(--primary-color);
-  overflow: hidden;
-}
 
 #title {
   width: 100%;
   position: absolute;
-  bottom: 60%;
+  bottom: 70%; /* Adjusted to make the text go up more */
   left: 0;
   text-align: center;
   font-size: 3rem;
@@ -139,6 +90,35 @@ body {
   border-radius: 30px;
   background: rgba(0, 0, 0, 0.6);
   border: 3px solid var(--primary-color);
+  color: var(--primary-color);
+  text-align: center;
+  transition: all 1s;
+  filter: drop-shadow(0 0 20px #151414) drop-shadow(0 0 50px #151414);
+}
+
+#searchbar:hover {
+  transform: translateY(-5%) scale(1.05);
+  background-color: rgba(21, 20, 20, 0.9);
+  box-shadow: 0 0 50px var(--highlight-color);
+}
+
+#searchbar::placeholder {
+  color: var(--primary-color);
+}
+
+body {
+  background: url("background.webp") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  overflow: hidden;
+}
+
 h1, h2, h3 {
   color: var(--primary-color);
   text-align: center;
@@ -147,33 +127,16 @@ h1, h2, h3 {
   filter: drop-shadow(0 0 20px var(--primary-color));
 }
 
-#searchbar:hover {
-  transform: translateY(-5%) scale(1.05);
-  background-color: rgba(21, 20, 20, 0.9);
-  box-shadow: 0 0 50px var(--highlight-color);
-}
-#searchbar::placeholder {
-a {
-  color: var(--secondary-color)
-
-
-
-}
-h1, h2, h3 {
-  color: var(--primary-color);
-  text-shadow: 2px 4px 6px var(--highlight-color);
-}
 a {
   color: var(--highlight-color);
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
   color: var(--primary-color);
 }
 </style>
-         <audion autoplay = "" src="Cyber_Shards_Vip.m4a">
-           <head>
-                    <html>
-
-
+         <audio autoplay src="Cyber_Shards_Vip.m4a"></audio>
+</body>
+</html>

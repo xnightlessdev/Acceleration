@@ -1,5 +1,11 @@
 # Acceleration V1 Experience the global internet using Acceleration, the most Accelerated Proxy in the world The best looking proxy there is with Apps and tab cloaking and over 100+ games for students
 
+> [!IMPORTANT]
+> If you fork this project, consider giving it a star in the original repository!
+
+**Join Our [Discord Community](https://discord.gg/Kvwzdt4WzJ) for support, more links, and an active community!**
+
+
 
 ## Features:
 - 🕶️ Advanced Tab Cloaking: Seamlessly switch between tasks without a trace.

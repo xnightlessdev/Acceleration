@@ -1,5 +1,4 @@
 # Acceleration Experience the global internet using Acceleration, the most Accelerated Proxy in the world The best looking proxy there is with Apps and tab cloaking and over 100+ games for students
-<img src="https://raw.githubusercontent.com/UseInterstellar/Interstellar/main/.github/branding/acceleration.png" alt="Acceleration">
 
 
 <p align="center">

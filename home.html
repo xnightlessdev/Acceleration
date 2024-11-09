@@ -18,12 +18,23 @@ document.getElementById("searchform").addEventListener("submit", function(event)
     });
 </script>
 <div title="Ultraviolet Logo" class="logo-wrapper">
-  <h1 id="title" data-text="&nbsp;Acceleration" class="text">&nbsp;Acceleration</h1>
+  <h1  data-text="&nbsp;Acceleration" class="text">&nbsp;Acceleration</h1>
 </div>
-
 <b>
 </b>
+<div id="particleContainer" class="particles" aria-hidden="true"> 
 
+      <div class="particles" aria-hidden="true">
+      <div class="particle" style="--d: 0s, 0s;">.</div>
+      <div class="particle" style="--d: 1s, 1s;">.</div>
+      <div class="particle" style="--d: 6s, 0.5s;">.</div>
+      <div class="particle" style="--d: 4s, 2s;">.</div>
+      <div class="particle" style="--d: 2s, 2s;">.</div>
+      <div class="particle" style="--d: 8s, 3s;">.</div>
+      <div class="particle" style="--d: 6s, 2s;">.</div>
+      <div class="particle" style="--d: 2.5s, 1s;">.</div>
+      <div class="particle" style="--d: 1s, 0s;">.</div>
+      <div class="particle" style="--d: 3s, 1.5s;">.</div>
             <ul class="navbar">
 
      
@@ -57,22 +68,19 @@ document.getElementById("searchform").addEventListener("submit", function(event)
   --background-color: #0f0f0f;
   --highlight-color: #ff0077;
 }
- #title {
-  width: 100%;
-  position: absolute;
-  bottom: 500%;
-  left: 0;
-  text-align: center;
-  font-size: 3rem;
-  font-weight: bold;
-  color: var(--primary-color);
-  text-shadow: 3px 6px 10px var(--secondary-color), 0 0 20px var(--highlight-color);
-  letter-spacing: 2px;
-  animation: glow 2s infinite alternate;
-}
+  #title{
+    width:100%;
+    position:absolute;
+    bottom:60%;
+    left:0px;
+    text-align:center;
+    color:var(--primary-color);
+    text-shadow: 3px 6px 2px var(--secondary-color);
+  }
+
   #searchbar{
     height: 50px;
-    width: 100%;
+    width: 70%;
     position: absolute;
     bottom: 45%;
     left: 15%;
@@ -107,6 +115,19 @@ body {
   overflow: hidden;
 }
 
+#title {
+  width: 100%;
+  position: absolute;
+  bottom: 60%;
+  left: 0;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-shadow: 3px 6px 10px var(--secondary-color), 0 0 20px var(--highlight-color);
+  letter-spacing: 2px;
+  animation: glow 2s infinite alternate;
+}
 
 @keyframes glow {
   0% {
@@ -119,7 +140,7 @@ body {
 
 #searchbar {
   height: 50px;
-  width: 50%;
+  width: 70%;
   position: absolute;
   bottom: 45%;
   left: 15%;
@@ -142,10 +163,56 @@ h1, h2, h3 {
 }
 #searchbar::placeholder {
 a {
-  color: var(--secondary-color)
+  color: var(--secondary-color);
+}
+} 
 
+.particles {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  pointer-events:none;
+}
 
+.particle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  animation: snowflakes-fall 15s linear infinite, snowflakes-shake 5s ease-in-out infinite;
+  opacity: 0.8;
+  flex: 1;
+  position: relative;
+  top: -10%;
+  animation: snowflakes-fall 15s linear, snowflakes-shake 5s ease-in-out;
+  animation-delay: var(--d);
+  animation-iteration-count: infinite;
+  width:10%;
+  height:10%;
+  color:white;
+}
 
+@keyframes snowflakes-fall {
+  100% {
+    transform: translateY(100vh);
+    top: 100%;
+  }
+}
+
+@keyframes snowflakes-shake {
+  50% {
+    transform: translateX(50px) rotate(15deg);
+    transform: translateX(100px) rotate(5deg);
+  }
 }
 h1, h2, h3 {
   color: var(--primary-color);
@@ -161,10 +228,6 @@ a:hover {
 }
 </style>
          <audion autoplay = "" src="Cyber_Shards_Vip.m4a">
-                      <audion autoplay = "Bombastic.m4a" src="">
-                                   <audion autoplay = "" src="SHADOW_OFFICIAL_MUSIC.m4a">
-
-
            <head>
                     <html>
 

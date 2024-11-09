@@ -18,6 +18,11 @@ body {
 }
 
 /* Themes */
+
+body.default {
+  --background-color: black;
+}
+
 body.techno {
   --background-color: blue;
   --text-color: purple;

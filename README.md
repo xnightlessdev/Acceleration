@@ -14,8 +14,7 @@
 - 🎶 Built-In Music Player: Add a soundtrack to your experience and make browsing even cooler!
 - testing link: https://shadowaccerltion.netlify.app/
 ## Contributors:
-[![Contrib](https://contrib.rocks/image?repo=Shadowproxynetwork/Shadownetwork)](https://github.com/Shadowproxynetwork/Shadownetwork/graphs/contributors) (https://github.com/xdevnightless/Acceleration/graphs/contributors) 
-
+[![Contrib](https://contrib.rocks/image?repo=Shadowproxynetwork/Shadownetwork)](https://github.com/Shadowproxynetwork/Shadownetwork/graphs/contributorshttps://github.com/xdevnightless/Acceleration/graphs/contributors) 
 
 ## Deployment
 [![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/template/h7StcI?referralCode=u82tqg)

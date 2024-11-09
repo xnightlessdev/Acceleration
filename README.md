@@ -1,4 +1,7 @@
 # Acceleration V1 Experience the global internet using Acceleration, the most Accelerated Proxy in the world The best looking proxy there is with Apps and tab cloaking and over 100+ games for students
+<p align="center">
+  <img src="blob:chrome-untrusted://media-app/3c772102-7c41-478b-86b0-be32db0e9b2e" height="200">
+</p>
 
 > [!IMPORTANT]
 > If you fork this project, consider giving it a star in the original repository!

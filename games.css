@@ -570,3 +570,17 @@ body {
      height: 200px;
      background-color: var(--accent-color);
 }
+ 
+
+.card:hover {
+  transform: translateY(-5px);  
+}
+
+.card a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;  
+}

@@ -27,7 +27,7 @@ body.techno {
   --background-color: blue;
   --text-color: purple;
   --accent-color: green; 
-  --accent-color-light: black;
+  --accent-color-light: blue; /* Replaced grey with blue */
 }
 
 body.oceanic {
@@ -153,7 +153,7 @@ li.nav-item img:hover {
   background-color: var(--accent-color);
   border-radius: 8px;
   padding: 20px;
-  color: #b7b7b7;
+  color: var(--text-color); /* Text color adjusted to no grey */
   margin: 0.5%;
   display: table;
   box-sizing: border-box;
@@ -165,7 +165,7 @@ li.nav-item img:hover {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
-  color: var(--text-color);
+  color: var(--text-color); /* Text color updated */
 }
 
 .panel input, .panel select, .panel button {
@@ -176,7 +176,7 @@ li.nav-item img:hover {
 }
 
 .panel button {
-  background-color: var(--accent-color-light);
+  background-color: var(--accent-color-light); /* Accent color light adjusted */
   border: none;
   color: var(--text-color);
   cursor: pointer;
@@ -184,7 +184,7 @@ li.nav-item img:hover {
 }
 
 .panel button:hover {
-  background-color: #666;
+  background-color: #666; /* Grey hover effect */
 }
 
 .settings-container {

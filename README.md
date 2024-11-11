@@ -28,8 +28,8 @@
 | `💬 Widgetbot Integration` | Connect, chat, and collaborate seamlessly right in the app. |
 | `🎶 Built-In Music Player` | Add a soundtrack to your experience and make browsing even cooler! |
 | `📂 Tab System` | Use our tabs to play games or whahtever you want  easily with the integrated tab system. |
-
-- testing link: https://shadowaccerltion.netlify.app/
+| `🔗 Testing Link` | Use our testing link to test the site so you know what to suggest for our site |
+ https://shadowaccerltion.netlify.app/
 ## Credits: A huge thanks goes out to all of the people who have contributed to Acceleration.
 
 ![Contrib](https://contrib.rocks/image?repo=Shadowproxynetwork/Shadownetwork) <a href="https://github.com/xdevnightless/Acceleration/graphs/contributors">

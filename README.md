@@ -63,14 +63,13 @@
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri=https://raw.githubusercontent.com/xdevnightless/Acceleration/main/azuredeploy.json">
   <img src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/azure.svg" alt="Deploy to Azure">
 </a>
-<a href="https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/xdevnightless/Acceleration">
+<a href="https://cloud.ibm.com/apps/create?env_id=cf&template=https://github.com/xdevnightless/Acceleration">
   <img src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/ibm.svg" alt="Deploy to IBM Cloud">
 </a>
-
-
-<a href="https://console.aws.amazon.com/amplify/home?region=us-east-1#/deploy?repo=https://github.com/xdevnightless/Acceleration">
+<a href="https://console.aws.amazon.com/amplify/home?region=us-east-1#/create?repo=https://github.com/xdevnightless/Acceleration">
   <img src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/amplify.svg" alt="Deploy to AWS Amplify Console">
 </a>
+
 
 
 

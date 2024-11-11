@@ -9,50 +9,7 @@
   <script src="music.js"></script>
   <title>Settings Panel</title>
   <style>
-    body {
-      padding-top: 70px;
-      background-color: black;
-      color: white;
-      font-family: Arial, sans-serif;
-    }
-
-    .navbar {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background-color: rgba(0, 0, 0, 0.8);
-      z-index: 2;
-    }
-
-    .navbar .icon img {
-      width: 40px;
-      height: 40px;
-    }
-
-    .nav-item {
-      float: right;
-      cursor: pointer;
-    }
-
-    .nav-item a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      transition: all 0.3s;
-    }
-
-    .nav-item a:hover {
-      background-color: #444;
-      border-radius: 15px;
-    }
-
+    /* Example inline styles for navbar, you can also keep this in your external CSS */
     .shadow-navbar {
       display: flex;
       justify-content: center;
@@ -90,48 +47,11 @@
     .shadow-navbar ul li:hover::after {
       width: 60%;
     }
-
-    .settings-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 20px;
-    }
-
-    .panel {
-      background-color: #333;
-      padding: 20px;
-      margin: 10px;
-      border-radius: 10px;
-      width: 80%;
-      max-width: 400px;
-      color: white;
-    }
-
-    .panel label, .panel button, .panel select {
-      display: block;
-      margin: 10px 0;
-    }
-
-    .panel button {
-      padding: 8px 16px;
-      border: none;
-      background-color: #007bff;
-      color: white;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-
-    .panel button:hover {
-      background-color: #0056b3;
-    }
   </style>
 </head>
-<body>
+<body class="default-theme"> 
 
   <ul class="navbar">
-    <li class="icon"><img src="images/icon.png" alt="Icon"></li>
     <li class="nav-item">
       <nav class="shadow-navbar">
         <ul>
@@ -191,6 +111,7 @@
     </div>
   </div>
 
+ 
 
 </body>
 </html>

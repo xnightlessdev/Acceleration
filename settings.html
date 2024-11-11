@@ -1,133 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-  <ul class="navbar">
-
-       <li class="icon"><img src="images/icon.png"/></li>
-      <li class="nav-item">
-         <nav class="shadow-navbar">
-        <ul>
-                  <li><a href="index.html"><i class="fa-solid fa-house"></i> <span>Home</span></a></li>
-        <li><a href="games.html"><i class="fa-solid fa-gamepad"></i> <span>Games</span></a></li>
-        <li><a href="apps.html"><i class="fas fa-mobile-alt"></i> <span>Apps</span></a></li>
-        <li><a href="tabs.html"><i class="fa-solid fa-plus"></i> <span>Tabs</span></a></li>
-        <li><a href="music.html"><i class="fa-solid fa-music"></i> <span>Music</span></a></li>
-                  <li><a href="shadowgpt.html"><i class="fa-solid fa-robot"></i> <span>ShadowGPT</span></a></li>
-        <li><a href="settings.html"><i class="fas fa-cog"></i> <span>Settings</span></a></li>
-        </ul>
-    </nav>
-
-    </ul>
-  
-  <head>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <script src="settings.js" defer></script>
-        <script src="music.js"></script>
+  <script src="music.js" defer></script>
   <title>Settings Panel</title>
-</head>
-<style>
-  body {
-    padding-top: 70px; /* Adjust based on the height of the navbar */
-}
- .shadow-navbar {
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(145deg, #000000, #000000);
-    padding: 10px; /* Reduced padding */
-    border-radius: 15px; /* Slightly smaller border radius */
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(8px);
-    position: relative;
-}
-
-.shadow-navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 30px; /* Reduced gap between items */
-}
-
-.shadow-navbar ul li a {
-    font-size: 16px; /* Smaller font size */
-    color: white;
-}
-
-.shadow-navbar ul li a i {
-    font-size: 25px; /* Smaller icon size */
-    margin-bottom: 3px;
-}
-
-.shadow-navbar ul li a span {
-    font-size: 14px; /* Smaller label font size */
-}
-
-.shadow-navbar ul li a:hover i {
-    transform: scale(1.2); /* Smaller scale on hover */
-}
-
-.shadow-navbar ul li:hover::after {
-    width: 60%; /* Narrower underline on hover */
-}
-
-
-
-  ul.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: fixed; /* Make it fixed at the top */
-    top: 0; /* Align it to the top */
-    left: 0;
-    width: 100%;
-    z-index: 2;
-    background-color: rgba(0, 0, 0, 0.8); /* Optional: add background for better visibility */
-}
-     li.nav-item img{
-      size: 100%;
+  <style>
+    body {
+      padding-top: 80px;
+      background-color: black;
       color: white;
-      display: block;
-      color: white;
-      transition: all 1s;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
+      font-family: Arial, sans-serif;
     }
 
-    li.nav-item {
+    .navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      z-index: 2;
+    }
+
+    .navbar .icon img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .nav-item {
       float: right;
-      cursor: pointer !important;
+      cursor: pointer;
     }
 
-    li.nav-item a {
+    .nav-item a {
       display: block;
       color: white;
-      transition: all 1s;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
+      transition: all 0.3s;
     }
 
-    li.nav-item a:hover {
+    .nav-item a:hover {
       background-color: #444;
       border-radius: 15px;
     }
 
+    .shadow-navbar {
+      display: flex;
+      justify-content: center;
+      background: linear-gradient(145deg, #000000, #000000);
+      padding: 10px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(8px);
+    }
 
-</style>
+    .shadow-navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    .shadow-navbar ul li a {
+      font-size: 16px;
+      color: white;
+    }
+
+    .shadow-navbar ul li a i {
+      font-size: 25px;
+      margin-bottom: 3px;
+    }
+
+    .shadow-navbar ul li a span {
+      font-size: 14px;
+    }
+
+    .shadow-navbar ul li a:hover i {
+      transform: scale(1.2);
+    }
+
+    .shadow-navbar ul li:hover::after {
+      width: 60%;
+    }
+
+    .settings-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .panel {
+      background-color: #333;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 400px;
+      color: white;
+    }
+
+    .panel label, .panel button, .panel select {
+      display: block;
+      margin: 10px 0;
+    }
+
+    .panel button {
+      padding: 8px 16px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .panel button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
 <body>
-  <div class="settings-container">
 
-    <!-- Image Settings Panel -->
+  <ul class="navbar">
+    <li class="icon"><img src="images/icon.png" alt="Icon"></li>
+    <li class="nav-item">
+      <nav class="shadow-navbar">
+        <ul>
+          <li><a href="index.html"><i class="fa-solid fa-house"></i> <span>Home</span></a></li>
+          <li><a href="games.html"><i class="fa-solid fa-gamepad"></i> <span>Games</span></a></li>
+          <li><a href="apps.html"><i class="fas fa-mobile-alt"></i> <span>Apps</span></a></li>
+          <li><a href="tabs.html"><i class="fa-solid fa-plus"></i> <span>Tabs</span></a></li>
+          <li><a href="music.html"><i class="fa-solid fa-music"></i> <span>Music</span></a></li>
+          <li><a href="shadowgpt.html"><i class="fa-solid fa-robot"></i> <span>ShadowGPT</span></a></li>
+          <li><a href="settings.html"><i class="fas fa-cog"></i> <span>Settings</span></a></li>
+        </ul>
+      </nav>
+    </li>
+  </ul>
+
+  <div class="settings-container">
     <div class="panel" id="image-settings">
       <label for="image-url">Enter image URL</label>
       <input type="text" id="image-url">
       <button type="button">Save Image URL</button>
     </div>
 
-    <!-- Particles Settings Panel -->
     <div class="panel" id="particles-settings">
       <label for="particles-input">Add particles</label>
       <input type="text" id="particles-input" placeholder="Number of particles">
@@ -135,7 +161,6 @@
       <button type="button">Remove Particles</button>
     </div>
 
-    <!-- Theme Settings Panel -->
     <div class="panel" id="themes-settings">
       <label for="theme-select">Choose Theme</label>
       <select id="theme-select">
@@ -153,23 +178,22 @@
         <option value="noctura">Noctura</option>
         <option value="ruby">Ruby</option>
         <option value="light">Light</option>
-                <option value="christmas">Christmas</option>
-                <option value="fire">Fire</option>
-
+        <option value="christmas">Christmas</option>
+        <option value="fire">Fire</option>
       </select>
       <button type="button" id="save-theme-button" onclick="onSaveTheme()">Save Theme</button>
     </div>
 
-    <!-- Background Settings Panel -->
     <div class="panel" id="background-settings">
       <label for="background-upload">Upload Background</label>
       <input type="file" id="background-upload" accept="image/*">
       <button type="button" onclick="uploadBackground()">Upload Background</button>
     </div>
-
   </div>
+
+  <audio autoplay src="Cyber_Shards_Vip.m4a"></audio>
+  <audio autoplay src="Bombastic.m4a"></audio>
+  <audio autoplay src="SHADOW_OFFICIAL_MUSIC.m4a"></audio>
+
 </body>
-    <audion autoplay = "" src="Cyber_Shards_Vip.m4a">
-                      <audion autoplay = "Bombastic.m4a" src="">
-                                   <audion autoplay = "" src="SHADOW_OFFICIAL_MUSIC.m4a">
 </html>

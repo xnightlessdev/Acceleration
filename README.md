@@ -60,6 +60,13 @@
 <a href="https://glitch.com/edit/#!/import/git?url=https://github.com/xdevnightless/Acceleration">
   <img src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg" alt="Remix on Glitch">
 </a>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri=https://raw.githubusercontent.com/xdevnightless/Acceleration/main/azuredeploy.json">
+  <img src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/azure.svg" alt="Deploy to Azure">
+</a>
+
+<a href="https://console.aws.amazon.com/amplify/home?region=us-east-1#/deploy?repo=https://github.com/xdevnightless/Acceleration">
+  <img src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/amplify.svg" alt="Deploy to AWS Amplify">
+</a>
 
 
 ## Join our Discord!

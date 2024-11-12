@@ -121,7 +121,7 @@ li.nav-item img:hover {
   border-radius: 15px;
 }
 
-
+/* Theme Styles */
 body.techno {
   background-color: #1a1a1a;
   color: #d0a0f7;
@@ -184,6 +184,7 @@ body.hacker .panel {
   width: 48%;
   font-family: Arial;
 }
+
 body.galaxy {
   background-color: #020024;
   color: #f1f1f1;
@@ -332,8 +333,8 @@ body.sunset .panel {
 }
 
 body.ruby {
-  background-color: #8b0000;
-  color: #fff0f0;
+  background-color: #e0115f;
+  color: #ffffff;
   font-family: 'Quicksand', sans-serif;
   padding-top: 60px;
   height: 100vh;
@@ -341,49 +342,7 @@ body.ruby {
 }
 
 body.ruby .panel {
-  background-color: #dc143c;
-  border-radius: 8px;
-  padding: 20px;
-  color: #b7b7b7;
-  margin: 0.5%;
-  display: table;
-  box-sizing: border-box;
-  width: 48%;
-  font-family: Arial;
-}
-
-body.noctura {
-  background-color: #121212;
-  color: #ffffff;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.noctura .panel {
-  background-color: #121212;
-  border-radius: 8px;
-  padding: 20px;
-  color: #b7b7b7;
-  margin: 0.5%;
-  display: table;
-  box-sizing: border-box;
-  width: 48%;
-  font-family: Arial;
-}
-
-body.sapphire {
-  background-color: #0f4b5f;
-  color: #ffffff;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.sapphire .panel {
-  background-color: #1e90ff;
+  background-color: #9b111e;
   border-radius: 8px;
   padding: 20px;
   color: #b7b7b7;
@@ -395,20 +354,19 @@ body.sapphire .panel {
 }
 
 body.light {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   color: #333333;
   font-family: 'Quicksand', sans-serif;
   padding-top: 60px;
   height: 100vh;
   text-align: center;
-  padding-bottom: 20px;
 }
 
 body.light .panel {
-  background-color: #ffffff;
+  background-color: #f0f0f0;
   border-radius: 8px;
   padding: 20px;
-  color: #333333;
+  color: #b7b7b7;
   margin: 0.5%;
   display: table;
   box-sizing: border-box;
@@ -416,11 +374,9 @@ body.light .panel {
   font-family: Arial;
 }
 
-
-
-  body.christmas {
-  background-color: #006400; /* Dark Green */
-  color: #ff0000; /* Red */
+body.christmas {
+  background-color: #006400;
+  color: #ff0000;
   font-family: 'Quicksand', sans-serif;
   padding-top: 60px;
   height: 100vh;
@@ -438,15 +394,3 @@ body.christmas .panel {
   width: 48%;
   font-family: Arial;
 }
-body.fire {
-  background-color: #ff4500;
-  color: #ffffff;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.fire .panel {
-  background-color: #ff4500;
-  border-radius: 8

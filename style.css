@@ -133,14 +133,6 @@ body.techno {
 
 body.techno .panel {
   background-color: #6a0dad;
-  border-radius: 8px;
-  padding: 20px;
-  color: #b7b7b7;
-  margin: 0.5%;
-  display: table;
-  box-sizing: border-box;
-  width: 48%;
-  font-family: Arial;
 }
 
 body.oceanic {
@@ -154,14 +146,6 @@ body.oceanic {
 
 body.oceanic .panel {
   background-color: #008b8b;
-  border-radius: 8px;
-  padding: 20px;
-  color: #b7b7b7;
-  margin: 0.5%;
-  display: table;
-  box-sizing: border-box;
-  width: 48%;
-  font-family: Arial;
 }
 
 body.hacker {
@@ -175,14 +159,6 @@ body.hacker {
 
 body.hacker .panel {
   background-color: #333333; /* Dark Grey */
-  border-radius: 8px;
-  padding: 20px;
-  color: #b7b7b7;
-  margin: 0.5%;
-  display: table;
-  box-sizing: border-box;
-  width: 48%;
-  font-family: Arial;
 }
 
 body.galaxy {
@@ -196,14 +172,6 @@ body.galaxy {
 
 body.galaxy .panel {
   background-color: #9b59b6;
-  border-radius: 8px;
-  padding: 20px;
-  color: #b7b7b7;
-  margin: 0.5%;
-  display: table;
-  box-sizing: border-box;
-  width: 48%;
-  font-family: Arial;
 }
 
 body.cyberpunk {
@@ -217,14 +185,6 @@ body.cyberpunk {
 
 body.cyberpunk .panel {
   background-color: #800080;
-  border-radius: 8px;
-  padding: 20px;
-  color: #b7b7b7;
-  margin: 0.5%;
-  display: table;
-  box-sizing: border-box;
-  width: 48%;
-  font-family: Arial;
 }
 
 body.midnight {
@@ -238,14 +198,6 @@ body.midnight {
 
 body.midnight .panel {
   background-color: #34495e;
-  border-radius: 8px;
-  padding: 20px;
-  color: #b7b7b7;
-  margin: 0.5%;
-  display: table;
-  box-sizing: border-box;
-  width: 48%;
-  font-family: Arial;
 }
 
 body.gaming {
@@ -259,14 +211,6 @@ body.gaming {
 
 body.gaming .panel {
   background-color: #800080;
-  border-radius: 8px;
-  padding: 20px;
-  color: #b7b7b7;
-  margin: 0.5%;
-  display: table;
-  box-sizing: border-box;
-  width: 48%;
-  font-family: Arial;
 }
 
 body.crimson {
@@ -280,14 +224,6 @@ body.crimson {
 
 body.crimson .panel {
   background-color: #8b0000;
-  border-radius: 8px;
-  padding: 20px;
-  color: #b7b7b7;
-  margin: 0.5%;
-  display: table;
-  box-sizing: border-box;
-  width: 48%;
-  font-family: Arial;
 }
 
 body.halloween {
@@ -301,14 +237,6 @@ body.halloween {
 
 body.halloween .panel {
   background-color: #ff7f00;
-  border-radius: 8px;
-  padding: 20px;
-  color: #b7b7b7;
-  margin: 0.5%;
-  display: table;
-  box-sizing: border-box;
-  width: 48%;
-  font-family: Arial;
 }
 
 body.sunset {
@@ -322,14 +250,6 @@ body.sunset {
 
 body.sunset .panel {
   background-color: #ff6347;
-  border-radius: 8px;
-  padding: 20px;
-  color: #b7b7b7;
-  margin: 0.5%;
-  display: table;
-  box-sizing: border-box;
-  width: 48%;
-  font-family: Arial;
 }
 
 body.ruby {
@@ -343,14 +263,6 @@ body.ruby {
 
 body.ruby .panel {
   background-color: #9b111e;
-  border-radius: 8px;
-  padding: 20px;
-  color: #b7b7b7;
-  margin: 0.5%;
-  display: table;
-  box-sizing: border-box;
-  width: 48%;
-  font-family: Arial;
 }
 
 body.light {
@@ -364,14 +276,6 @@ body.light {
 
 body.light .panel {
   background-color: #f0f0f0;
-  border-radius: 8px;
-  padding: 20px;
-  color: #b7b7b7;
-  margin: 0.5%;
-  display: table;
-  box-sizing: border-box;
-  width: 48%;
-  font-family: Arial;
 }
 
 body.christmas {
@@ -385,12 +289,4 @@ body.christmas {
 
 body.christmas .panel {
   background-color: #008000;
-  border-radius: 8px;
-  padding: 20px;
-  color: #b7b7b7;
-  margin: 0.5%;
-  display: table;
-  box-sizing: border-box;
-  width: 48%;
-  font-family: Arial;
 }

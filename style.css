@@ -125,94 +125,142 @@ body.techno {
   background-color: #1a1a1a;
   color: #d0a0f7;
   font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }
 
 body.oceanic {
   background-color: #00adb5;
   color: #ffffff;
   font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }
 
 body.hacker {
   background-color: #000;
   color: #00ff00;
   font-family: 'Courier New', monospace;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }
 
 body.galaxy {
   background-color: #020024;
   color: #f1f1f1;
   font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }
 
 body.cyberpunk {
   background-color: #2e0044;
   color: #00ff00;
   font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }
 
 body.midnight {
   background-color: #1a1a2e;
   color: #ecf0f1;
   font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }
 
 body.gaming {
   background-color: #121212;
   color: #ffcc00;
   font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }
 
 body.crimson {
   background-color: #222222;
   color: #dc143c;
   font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }
 
 body.halloween {
   background-color: #222;
   color: #ff7f00;
   font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }
 
 body.sunset {
   background-color: #ff7f50;
   color: #ffffff;
   font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }
 
 body.ruby {
   background-color: #8b0000;
   color: #fff0f0;
   font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }
 
 body.noctura {
   background-color: #121212;
   color: #ffffff;
   font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }
 
 body.sapphire {
   background-color: #0f4b5f;
   color: #ffffff;
   font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }
 
 body.light {
   background-color: #ffffff;
   color: #333333;
   font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }
 
 body.christmas {
   background-color: #006400;
   color: #ffffff;
   font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }
 
 body.fire {
   background-color: #ff4500;
   color: #ffffff;
   font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
 }

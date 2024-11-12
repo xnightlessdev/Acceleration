@@ -121,6 +121,7 @@ li.nav-item img:hover {
   border-radius: 15px;
 }
 
+
 body.techno {
   background-color: #1a1a1a;
   color: #d0a0f7;
@@ -128,6 +129,18 @@ body.techno {
   padding-top: 60px;
   height: 100vh;
   text-align: center;
+}
+
+body.techno .panel {
+  background-color: #6a0dad;
+  border-radius: 8px;
+  padding: 20px;
+  color: #b7b7b7;
+  margin: 0.5%;
+  display: table;
+  box-sizing: border-box;
+  width: 48%;
+  font-family: Arial;
 }
 
 body.oceanic {
@@ -139,6 +152,18 @@ body.oceanic {
   text-align: center;
 }
 
+body.oceanic .panel {
+  background-color: #008b8b;
+  border-radius: 8px;
+  padding: 20px;
+  color: #b7b7b7;
+  margin: 0.5%;
+  display: table;
+  box-sizing: border-box;
+  width: 48%;
+  font-family: Arial;
+}
+
 body.hacker {
   background-color: #000;
   color: #00ff00;
@@ -146,6 +171,18 @@ body.hacker {
   padding-top: 60px;
   height: 100vh;
   text-align: center;
+}
+
+body.hacker .panel {
+  background-color: #333;
+  border-radius: 8px;
+  padding: 20px;
+  color: #b7b7b7;
+  margin: 0.5%;
+  display: table;
+  box-sizing: border-box;
+  width: 48%;
+  font-family: Arial;
 }
 
 body.galaxy {
@@ -157,6 +194,18 @@ body.galaxy {
   text-align: center;
 }
 
+body.galaxy .panel {
+  background-color: #9b59b6;
+  border-radius: 8px;
+  padding: 20px;
+  color: #b7b7b7;
+  margin: 0.5%;
+  display: table;
+  box-sizing: border-box;
+  width: 48%;
+  font-family: Arial;
+}
+
 body.cyberpunk {
   background-color: #2e0044;
   color: #00ff00;
@@ -164,6 +213,18 @@ body.cyberpunk {
   padding-top: 60px;
   height: 100vh;
   text-align: center;
+}
+
+body.cyberpunk .panel {
+  background-color: #800080;
+  border-radius: 8px;
+  padding: 20px;
+  color: #b7b7b7;
+  margin: 0.5%;
+  display: table;
+  box-sizing: border-box;
+  width: 48%;
+  font-family: Arial;
 }
 
 body.midnight {
@@ -175,6 +236,18 @@ body.midnight {
   text-align: center;
 }
 
+body.midnight .panel {
+  background-color: #34495e;
+  border-radius: 8px;
+  padding: 20px;
+  color: #b7b7b7;
+  margin: 0.5%;
+  display: table;
+  box-sizing: border-box;
+  width: 48%;
+  font-family: Arial;
+}
+
 body.gaming {
   background-color: #121212;
   color: #ffcc00;
@@ -182,6 +255,18 @@ body.gaming {
   padding-top: 60px;
   height: 100vh;
   text-align: center;
+}
+
+body.gaming .panel {
+  background-color: #800080;
+  border-radius: 8px;
+  padding: 20px;
+  color: #b7b7b7;
+  margin: 0.5%;
+  display: table;
+  box-sizing: border-box;
+  width: 48%;
+  font-family: Arial;
 }
 
 body.crimson {
@@ -193,8 +278,20 @@ body.crimson {
   text-align: center;
 }
 
+body.crimson .panel {
+  background-color: #8b0000;
+  border-radius: 8px;
+  padding: 20px;
+  color: #b7b7b7;
+  margin: 0.5%;
+  display: table;
+  box-sizing: border-box;
+  width: 48%;
+  font-family: Arial;
+}
+
 body.halloween {
-  background-color: #222;
+  background-color: #000000;
   color: #ff7f00;
   font-family: 'Quicksand', sans-serif;
   padding-top: 60px;
@@ -202,13 +299,37 @@ body.halloween {
   text-align: center;
 }
 
+body.halloween .panel {
+  background-color: #ff7f00;
+  border-radius: 8px;
+  padding: 20px;
+  color: #b7b7b7;
+  margin: 0.5%;
+  display: table;
+  box-sizing: border-box;
+  width: 48%;
+  font-family: Arial;
+}
+
 body.sunset {
   background-color: #ff7f50;
-  color: #ffffff;
+  color: #ffff00;
   font-family: 'Quicksand', sans-serif;
   padding-top: 60px;
   height: 100vh;
   text-align: center;
+}
+
+body.sunset .panel {
+  background-color: #ff6347;
+  border-radius: 8px;
+  padding: 20px;
+  color: #b7b7b7;
+  margin: 0.5%;
+  display: table;
+  box-sizing: border-box;
+  width: 48%;
+  font-family: Arial;
 }
 
 body.ruby {
@@ -220,6 +341,18 @@ body.ruby {
   text-align: center;
 }
 
+body.ruby .panel {
+  background-color: #dc143c;
+  border-radius: 8px;
+  padding: 20px;
+  color: #b7b7b7;
+  margin: 0.5%;
+  display: table;
+  box-sizing: border-box;
+  width: 48%;
+  font-family: Arial;
+}
+
 body.noctura {
   background-color: #121212;
   color: #ffffff;
@@ -227,6 +360,18 @@ body.noctura {
   padding-top: 60px;
   height: 100vh;
   text-align: center;
+}
+
+body.noctura .panel {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 20px;
+  color: #b7b7b7;
+  margin: 0.5%;
+  display: table;
+  box-sizing: border-box;
+  width: 48%;
+  font-family: Arial;
 }
 
 body.sapphire {
@@ -238,6 +383,18 @@ body.sapphire {
   text-align: center;
 }
 
+body.sapphire .panel {
+  background-color: #1e90ff;
+  border-radius: 8px;
+  padding: 20px;
+  color: #b7b7b7;
+  margin: 0.5%;
+  display: table;
+  box-sizing: border-box;
+  width: 48%;
+  font-family: Arial;
+}
+
 body.light {
   background-color: #ffffff;
   color: #333333;
@@ -247,13 +404,37 @@ body.light {
   text-align: center;
 }
 
+body.light .panel {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  color: #b7b7b7;
+  margin: 0.5%;
+  display: table;
+  box-sizing: border-box;
+  width: 48%;
+  font-family: Arial;
+}
+
 body.christmas {
   background-color: #006400;
-  color: #ffffff;
+  color: #ff0000;
   font-family: 'Quicksand', sans-serif;
   padding-top: 60px;
   height: 100vh;
   text-align: center;
+}
+
+body.christmas .panel {
+  background-color: #008000;
+  border-radius: 8px;
+  padding: 20px;
+  color: #b7b7b7;
+  margin: 0.5%;
+  display: table;
+  box-sizing: border-box;
+  width: 48%;
+  font-family: Arial;
 }
 
 body.fire {
@@ -264,3 +445,7 @@ body.fire {
   height: 100vh;
   text-align: center;
 }
+
+body.fire .panel {
+  background-color: #ff4500;
+  border-radius: 8

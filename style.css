@@ -290,3 +290,16 @@ body.christmas {
 body.christmas .panel {
   background-color: #008000;
 }
+body.fire {
+  background-color: #ff4500;
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  text-align: center;
+}
+
+body.fire .panel {
+  background-color: #b22222;
+}
+

@@ -165,8 +165,8 @@ body.oceanic .panel {
 }
 
 body.hacker {
-  background-color: #000;
-  color: #00ff00;
+  background-color: #000000; /* Black */
+  color: #00ff00; /* Green */
   font-family: 'Courier New', monospace;
   padding-top: 60px;
   height: 100vh;
@@ -174,7 +174,7 @@ body.hacker {
 }
 
 body.hacker .panel {
-  background-color: #333;
+  background-color: #333333; /* Dark Grey */
   border-radius: 8px;
   padding: 20px;
   color: #b7b7b7;
@@ -184,7 +184,6 @@ body.hacker .panel {
   width: 48%;
   font-family: Arial;
 }
-
 body.galaxy {
   background-color: #020024;
   color: #f1f1f1;
@@ -396,19 +395,20 @@ body.sapphire .panel {
 }
 
 body.light {
-  background-color: #ffffff;
+  background-color: #f0f0f0;
   color: #333333;
   font-family: 'Quicksand', sans-serif;
   padding-top: 60px;
   height: 100vh;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 body.light .panel {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   border-radius: 8px;
   padding: 20px;
-  color: #b7b7b7;
+  color: #333333;
   margin: 0.5%;
   display: table;
   box-sizing: border-box;
@@ -416,9 +416,11 @@ body.light .panel {
   font-family: Arial;
 }
 
-body.christmas {
-  background-color: #006400;
-  color: #ff0000;
+
+
+  body.christmas {
+  background-color: #006400; /* Dark Green */
+  color: #ff0000; /* Red */
   font-family: 'Quicksand', sans-serif;
   padding-top: 60px;
   height: 100vh;
@@ -436,7 +438,6 @@ body.christmas .panel {
   width: 48%;
   font-family: Arial;
 }
-
 body.fire {
   background-color: #ff4500;
   color: #ffffff;

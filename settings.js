@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function applyTheme(theme) {
     const element = document.querySelector("body");
-    const themes = ["default", "oceanic", "galaxy", "gaming", "cyberpunk", "techno", "hacker", "midnight", "crimson", "halloween", "sunset", "ruby", "noctura", "sapphire", "light"];
+    const themes = ["default", "oceanic", "galaxy", "gaming", "cyberpunk", "techno", "hacker", "midnight", "crimson", "halloween", "sunset", "ruby", "noctura", "sapphire", "light", "christmas", "fire"];
     
     themes.forEach(themeClass => {
       element.classList.remove(themeClass);

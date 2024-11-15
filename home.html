@@ -110,6 +110,35 @@
   #searchbar::placeholder{
     color:var(--primary-color);
   }
+  .shadow-navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Reduced gap between items */
+}
+
+.shadow-navbar ul li a {
+    font-size: 16px; /* Smaller font size */
+    color: white;
+}
+
+.shadow-navbar ul li a i {
+    font-size: 25px; /* Smaller icon size */
+    margin-bottom: 3px;
+}
+
+.shadow-navbar ul li a span {
+    font-size: 14px; /* Smaller label font size */
+}
+
+.shadow-navbar ul li a:hover i {
+    transform: scale(1.2); /* Smaller scale on hover */
+}
+
+.shadow-navbar ul li:hover::after {
+    width: 60%; /* Narrower underline on hover */
+}
+
+
 body {
   background: url("background.webp") no-repeat center center fixed;
   background-size: cover;

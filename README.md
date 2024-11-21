@@ -8,7 +8,8 @@
 > [!IMPORTANT]
 > If you fork this project, consider giving it a star in the original repository!
 
-**Join Our [Discord Community](https://discord.gg/Kvwzdt4WzJ) for support, more links, and an active community!**
+**Join Our [Discord Community](https://discord.gg/ZtqyuQBXt6
+) for support, more links, and an active community!**
 
 
 
@@ -78,6 +79,7 @@
 
 
 ## Join our Discord!
-[![Join us on Discord](https://invidget.switchblade.xyz/Kvwzdt4WzJ?theme=dark)](https://discord.gg/xyRJwtBmMH)
+[![Join us on Discord](https://invidget.switchblade.xyz/Kvwzdt4WzJ?theme=dark)](https://discord.gg/ZtqyuQBXt6
+)
 
 

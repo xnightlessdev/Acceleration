@@ -1,15 +1,26 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <script src="/uv/uv.bundle.js" defer></script>
-    <script src="/uv/uv.config.js" defer></script>
-    <script src="/js/register-sw.js" defer></script>
-    <script src="/js/search.js" defer></script>
-    <script src="/js/error.js" defer></script>
-    <script src="/js/tabs.js" defer></script>
-    <script src="/js/music.js"></script>
-    <link href="/css/index.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="public/uv/uv.bundle.js" defer></script>
+    <script src="public/uv/uv.config.js" defer></script>
+    <script src="public/js/register-sw.js" defer></script>
+    <script src="public/js/search.js" defer></script>
+    <script src="public/js/error.js" defer></script>
+    <script src="public/js/tabs.js" defer></script>
+    <script src="public/js/music.js" defer></script>
+    <link href="public/CSS/index.css" rel="stylesheet">
+    <link href="public/CSS/style.css" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
     <form class="searchform" id="searchform">
+    </form>
+</body>
+</html>
+
         <form class="searchform" id="searchform" method="get" action="https://www.google.com/search">
             <input class="search-bar" id="searchbar" placeholder="Search Google or Type a Address" type="text" size="31" value="">
             <canvas id="spaceCanvas"></canvas>

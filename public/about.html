@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <ul class="navbar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acceleration About Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-       <li class="icon"><img src="images/icon.png"/></li>
-      <li class="nav-item">
+   <li class="nav-item">
          <nav class="shadow-navbar">
         <ul>
                <li><a href="home.html"><i class="fa-solid fa-house"></i> <span>Home</span></a></li>
@@ -18,15 +22,248 @@
         </ul>
     </nav>
 
-    </ul>
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-  <title>About Us | Acceleration</title>
   <style>
-   
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at center, #0d0c22 50%, #1a1738 100%);
+      color: white;
+      overflow-x: hidden;
+    }
+    body::-webkit-scrollbar {
+      width: 12px;
+    }
+    body::-webkit-scrollbar-track {
+      background: #1a1738;
+    }
+    body::-webkit-scrollbar-thumb {
+      background-color: #9a6fff;
+      border-radius: 6px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 4rem;
+      position: sticky;
+      top: 0;
+      background: rgba(13, 12, 34, 0.9);
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+      z-index: 1000;
+    }
+    nav .logo {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #9a6fff;
+      font-family: 'Montserrat', sans-serif;
+      cursor: pointer;
+    }
+    nav .menu a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 1.5rem;
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      position: relative;
+      transition: all 0.3s ease-in-out;
+    }
+    nav .menu a:hover {
+      color: #9a6fff;
+    }
+    nav .menu a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background: #9a6fff;
+      left: 50%;
+      bottom: -5px;
+      transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+    }
+    nav .menu a:hover::after {
+      width: 100%;
+      left: 0;
+    }
+    .projects {
+      padding: 3rem 4rem;
+    }
+    .projects h1 {
+      font-size: 3rem;
+      color: #fff;
+      margin-bottom: 2rem;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    .project-card {
+      background: black
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      padding: 1.5rem;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      color: purpl
+    }
+    .project-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    }
+    .project-card h3 {
+      color: purple; 
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+    .project-card p {
+      color: #d9d9d9;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    .project-card .github-button {
+      margin-top: 1rem;
+      text-decoration: none;
+      background: #333;
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 0.5rem 1.5rem;
+      border-radius: 5px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .project-card .github-button i {
+      font-size: 1.2rem;
+      transition: transform 0.3s;
+    }
+    .project-card .github-button:hover {
+      background: #444;
+      transform: translateY(-2px);
+    }
+    .project-card .github-button:hover i {
+      transform: rotate(360deg);
+    }
+    .project-card .discord-button {
+      margin-top: 1rem;
+      text-decoration: none;
+      background: #333;
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 0.5rem 1.5rem;
+      border-radius: 5px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .project-card .discord-button i {
+      font-size: 1.2rem;
+      transition: transform 0.3s;
+    }
+    .project-card .discord-button:hover {
+      background: #444;
+      transform: translateY(-2px);
+    }
+    .project-card .discord-button:hover i {
+      transform: rotate(360deg);
+    }
+    .particles {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      overflow: hidden;
+    }
+    .particle {
+      position: absolute;
+      background: #9a6fff;
+      border-radius: 50%;
+      opacity: 0.7;
+      animation: float 5s infinite ease-in-out;
+    }
+    @keyframes float {
+      0% {
+        transform: translateY(0) scale(0.8);
+      }
+      50% {
+        transform: translateY(100vh) scale(1);
+      }
+      100% {
+        transform: translateY(-100vh) scale(0.5);
+      }
+    }
+    .about-us {
+      padding: 3rem 4rem;
+    }
+    .about-us h1 {
+      font-size: 3rem;
+      color: #fff;
+      margin-bottom: 2rem;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .about-us p {
+      color: #d9d9d9;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    .features {
+      padding: 3rem 4rem;
+    }
+    .features h1 {
+      font-size: 3rem;
+      color: #fff;
+      margin-bottom: 2rem;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .features table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    .features th, .features td {
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #fff;
+    }
+    .contributions {
+      padding: 3rem 4rem;
+    }
+    .contributions h1 {
+      font-size: 3rem;
+      color: #fff;
+      margin-bottom: 2rem;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .rectangle {
+      background: #000000;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      padding: 1.5rem;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      color: #FF0000; 
+      margin-bottom: 1rem;
+    }
+    .rectangle:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    }
+    .rectangle p {
+      color: #d9d9d9;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    .fraction-line {
+      width: 100%;
+      height: 2px;
+      background-color: #FF0000; 
+      margin: 5px 0;
+    }
 
     .shadow-navbar {
             display: flex;
@@ -186,202 +423,80 @@
   </style>
 </head>
 <body>
-  <canvas id="spaceCanvas"></canvas>
-  <h1 class="large" style="padding:20px;">About Us</h1>
-  Experience the global internet using Shadow Acceleration, the most Accelerated  Proxy in the world The best looking proxy there is with Apps and tab cloaking and over 100+ games for students
-
-
-
-  </table>
-    <h1 class="large" style="padding:20px;">Features</h1>
-
-    <table>
-      <tr>
-        <th>Wide Collection of Games</th>
-        <th>Tab Cloaking</th>
-        <th>Wide collection of Apps</th>
-        <th>Wide collection of Themes</th>
-      </tr>
-      <tr>
-        <td>About:Blank Cloaking</td>
-        <td>Fast Speeds</td>
-        <td>Built in Tab system</td>
-        <td>All types of Unique Themes</td>
-      </tr>
-      <tr>
-        <td>Acelerated Network</td>
-        <td>Custom Backround Music</td>
-        <td>Now.gg support</td>
-        <td>GeForce NOW support</td>
-      </tr>
-    </table>
-  </ul>
-  <h1 class="large" style="padding:20px;">Contributions</h1>
-  <div>
-    <div class="rectangle">
-      <img class="image" src="Nightless.png" alt="Nightless">
-      Nightless
-      <div class="fraction-line"></div>
-      Creator
-
-         <div class="rectangle">
-      <img class="image" src="unnamed.jpg" alt="Peak">
-      Peak
-      <div class="fraction-line"></div>
-      Head Dev
-    </div>
-      
-    </div>
-        <div class="rectangle">
-      <img class="image" src="ceo.png" alt="Only one Ceo">
-      crumbler1
-      <div class="fraction-line"></div>
-      Dev
-    </div>
-     
-    <div class="rectangle">
-      <img class="image" src="05.png" alt="05">
-      crumbler1
-      <div class="fraction-line"></div>
-      Dev
-    </div>
-   
-    <div class="rectangle">
-      <img class="image" src="crumbler.png" alt="crumbler">
-      crumbler1
-      <div class="fraction-line"></div>
-      Dev
-    </div>
   
-    <div class="rectangle">
-      <img class="image" src="snorlax.png" alt="Snorlax">
-      Snorlax
-      <div class="fraction-line"></div>
-      Head Dev
-
+  <section class="projects">
+    <h1>My Projects</h1>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Acceleration</h3>
+        <p>Experience the global internet using Acceleration, the most Accelerated Proxy in the world. The best looking proxy there is with Apps and tab cloaking and over 100+ games for students.</p>
+        <a href="https://github.com/xdevnightless/Acceleration" class="github-button" target="_blank">
+          <i class="fab fa-github"></i> View our Github
+        </a>
+        <a href="https://discord.gg/Kvwzdt4WzJ" class="discord-button" target="_blank">
+          <i class="fab fa-discord"></i> View our Discord server
+        </a>
+            </a>
+          </div>
+      <div class="project-card">
+        <h3>Features</h3>
+        <p><strong>Game Collection:</strong> Wide variety of games, optimized for performance.</p>
+        <p><strong>Tab Cloaking:</strong> Seamlessly conceal your browsing activity with advanced tab cloaking.</p>
+        <p><strong>App Integration:</strong> Enjoy a curated selection of useful and entertaining apps.</p>
+        <p><strong>Theme Library:</strong> Customize your experience with a range of unique themes.</p>
+        <p><strong>Advanced Features:</strong></p>
+        <ul>
+          <li>About:Blank Cloaking</li>
+          <li>Fast Speeds</li>
+          <li>Built-in Tab System</li>
+          <li>All types of Unique Themes</li>
+          <li>Accelerated Network</li>
+          <li>Custom Background Music</li>
+          <li>Now.gg Support</li>
+          <li>GeForce NOW Support</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <h3>Nightless</h3>
+        <p>Creator of Acceleration</p>
+      </div>
+      <div class="project-card">
+        <h3>Peak</h3>
+        <p>Head Developer of Acceleration</p>
+      </div>
+      <div class="project-card">
+        <h3>crumbler1</h3>
+        <p>Developer of Acceleration</p>
+      </div>
+      <div class="project-card">
+        <h3>Snorlax</h3>
+        <p>Developer of Acceleration</p>
+      </div>
+      <div class="project-card">
+        <h3>Devman</h3>
+        <p>Head Developer of Acceleration</p>
+      </div>
+      <div class="project-card">
+        <h3>Potato</h3>
+        <p>Developer of Acceleration</p>
+      </div>
+      <div class="project-card">
+        <h3>Juinor</h3>
+        <p>Developer of Acceleration</p>
+      </div>
+      <div class="project-card">
+        <h3>Talenaatfield</h3>
+        <p>Developer of Acceleration</p>
+      </div>
+      <div class="project-card">
+        <h3>Demure</h3>
+        <p>Developer of Acceleration</p>
+      </div>
+      <div class="project-card">
+        <h3>Strucid</h3>
+        <p>Developer of Acceleration</p>
+      </div>
     </div>
-    <div class="rectangle">
-      <img class="image" src="sigma.png" alt="Sigma">
-      Devman
-      <div class="fraction-line"></div>
-      Developer
-
-    </div>
-    <div class="rectangle">
-      <img class="image" src="Potato.png" alt="Potato">
-      Potato 
-      <div class="fraction-line"></div>
-      Head Dev
-
-    </div>
-    <div class="rectangle">
-      <img class="image" src="juinor.png" alt="Juinor">
-      Juinor 
-      <div class="fraction-line"></div>
-      Developer
-    </div>
-    <div class="rectangle">
-      <img class="image" src="talenaatfield.png" alt="Talenaatfield">
-     Talenaatfield 
-      <div class="fraction-line"></div>
-       Developer
-    </div>
-    <div class="rectangle">
-      <img class="image" src="demure.png" alt="Demure">
-     Demure
-      <div class="fraction-line"></div>
-     Head Dev
-    </div>
-    <div class="rectangle">
-      <img class="image" src="elite.png" alt="Strucid">
-      Strucid 
-      <div class="fraction-line"></div>
-      Head Dev 
-    </div>
-  </div>
-    <script>
-              const canvas = document.getElementById("spaceCanvas");
-        const ctx = canvas.getContext("2d");
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-
-        let particlesArray = [];
-        const numberOfParticles = 100;
-
-        const mouse = {
-            x: null,
-            y: null,
-        };
-
-        window.addEventListener("mousemove", (event) => {
-            mouse.x = event.x;
-            mouse.y = event.y;
-        });
-
-        class Particle {
-            constructor(x, y, size, color) {
-                this.x = x;
-                this.y = y;
-                this.size = size;
-                this.color = color;
-                this.speedX = Math.random() * 2 - 1;
-                this.speedY = Math.random() * 2 - 1;
-            }
-
-            draw() {
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-                ctx.fillStyle = this.color;
-                ctx.shadowColor = "#ffffff";
-                ctx.shadowBlur = 20;
-                ctx.fill();
-            }
-
-            update() {
-                this.x += this.speedX;
-                this.y += this.speedY;
-
-                if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
-                if (this.y < 0 || this.y > canvas.height) this.speedY *= -1;
-
-                const dx = mouse.x - this.x;
-                const dy = mouse.y - this.y;
-                const distance = Math.sqrt(dx * dx + dy * dy);
-                if (distance < 150) {
-                    this.x -= dx / 15;
-                    this.y -= dy / 15;
-                }
-            }
-        }
-
-        function init() {
-            particlesArray = [];
-            for (let i = 0; i < numberOfParticles; i++) {
-                const size = Math.random() * 3 + 1;
-                const x = Math.random() * canvas.width;
-                const y = Math.random() * canvas.height;
-                const color = "rgba(255, 255, 255, 0.8)";
-                particlesArray.push(new Particle(x, y, size, color));
-            }
-        }
-
-        function animate() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            particlesArray.forEach((particle) => {
-                particle.update();
-                particle.draw();
-            });
-            requestAnimationFrame(animate);
-        }
-
-        init();
-        animate();
-
-        window.addEventListener("resize", () => {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-            init();
-        });
-    </script>
+  </section>
 </body>
 </html>

@@ -32,33 +32,47 @@
     </li>
   </ul>
        <style>
-         .shadow-navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 30px; 
-}
+       
 
-.shadow-navbar ul li a {
-    font-size: 16px; 
-    color: white;
-}
 
-.shadow-navbar ul li a i {
-    font-size: 25px; /* Smaller icon size */
-    margin-bottom: 3px;
-}
+        .shadow-navbar {
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(145deg, #000000, #000000);
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(8px);
+            position: relative;
+        }
 
-.shadow-navbar ul li a span {
-    font-size: 14px; /* Smaller label font size */
-}
+        .shadow-navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
 
-.shadow-navbar ul li a:hover i {
-    transform: scale(1.2); /* Smaller scale on hover */
-}
+        .shadow-navbar ul li a {
+            font-size: 16px;
+            color: white;
+        }
 
-.shadow-navbar ul li:hover::after {
-    width: 60%; /* Narrower underline on hover */
-}
+        .shadow-navbar ul li a i {
+            font-size: 25px;
+            margin-bottom: 3px;
+        }
+
+        .shadow-navbar ul li a span {
+            font-size: 14px;
+        }
+
+        .shadow-navbar ul li a:hover i {
+            transform: scale(1.2);
+        }
+
+        .shadow-navbar ul li:hover::after {
+            width: 60%;
+        }
 
         #spaceCanvas {
             position: fixed;

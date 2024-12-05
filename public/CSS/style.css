@@ -55,7 +55,7 @@ body {
 .panel button {
   width: 100%;
   padding: 10px;
-  margin-bottom: 10px; /* Spacing between form elements */
+  margin-bottom: 10px; 
   border-radius: 5px;
 }
 
@@ -64,7 +64,7 @@ body {
   border: none;
   color: var(--text-color);
   cursor: pointer;
-  margin-bottom: 20px; /* Reduce bottom margin for cleaner layout */
+  margin-bottom: 20px; 
 }
 
 .panel button:hover {
@@ -73,19 +73,18 @@ body {
 
 input,
 select {
-  background: var(--background-color); /* Consistent background */
+  background: var(--background-color); 
   color: var(--text-color);
 }
 
 input:focus,
 select:focus {
-  background-color: var(--accent-color-light); /* Highlight on focus */
+  background-color: var(--accent-color-light); 
 }
 
-/* Mobile responsiveness */
 @media (max-width: 768px) {
   .panel {
-    width: 100%; /* Full width on smaller screens */
+    width: 100%; 
   }
 }
 
@@ -121,184 +120,132 @@ li.nav-item img:hover {
   border-radius: 15px;
 }
 
-/* Theme Styles */
-body.techno {
-  background-color: #1a1a1a;
-  color: #d0a0f7;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
+:root.oceanic {
+    --primary-color: #00aaff;
+    --secondary-color: rgba(0, 170, 255, 0.7);
+    --highlight-color: #0077cc;
+    --background-color: #002233;
+    --border-color: #004455;
+    --icon-color: #88ccff;
+}
+:root.galaxy {
+    --primary-color: #8a2be2;
+    --secondary-color: rgba(138, 43, 226, 0.7);
+    --highlight-color: #6a0dad;
+    --background-color: #1c0033;
+    --border-color: #330066;
+    --icon-color: #c3a6ff;
+}
+:root.gaming {
+    --primary-color: #ff4500;
+    --secondary-color: rgba(255, 69, 0, 0.7);
+    --highlight-color: #e03a00;
+    --background-color: #1a1a1a;
+    --border-color: #333333;
+    --icon-color: #ff9e80;
+}
+:root.cyberpunk {
+    --primary-color: #ff00ff;
+    --secondary-color: rgba(255, 0, 255, 0.7);
+    --highlight-color: #d400d4;
+    --background-color: #1a001a;
+    --border-color: #330033;
+    --icon-color: #ff80ff;
+}
+:root.techno {
+    --primary-color: #00ffff;
+    --secondary-color: rgba(0, 255, 255, 0.7);
+    --highlight-color: #00cccc;
+    --background-color: #001f1f;
+    --border-color: #003333;
+    --icon-color: #80ffff;
+}
+:root.hacker {
+    --primary-color: #00ff00;
+    --secondary-color: rgba(0, 255, 0, 0.7);
+    --highlight-color: #00cc00;
+    --background-color: #1c1c1c;
+    --border-color: #333333;
+    --icon-color: #b3ffb3;
+}
+:root.midnight {
+    --primary-color: #121212;
+    --secondary-color: rgba(18, 18, 18, 0.7);
+    --highlight-color: #343434;
+    --background-color: #000000;
+    --border-color: #1a1a1a;
+    --icon-color: #4d4d4d;
+}
+:root.crimson {
+    --primary-color: #dc143c;
+    --secondary-color: rgba(220, 20, 60, 0.7);
+    --highlight-color: #b01030;
+    --background-color: #330000;
+    --border-color: #660000;
+    --icon-color: #ff8a8a;
+}
+:root.halloween {
+    --primary-color: #ff7518;
+    --secondary-color: rgba(255, 117, 24, 0.7);
+    --highlight-color: #cc5f14;
+    --background-color: #1a1a1a;
+    --border-color: #333333;
+    --icon-color: #ffe3b3;
+}
+:root.sunset {
+    --primary-color: #ff4500;
+    --secondary-color: rgba(255, 69, 0, 0.7);
+    --highlight-color: #e03a00;
+    --background-color: #330000;
+    --border-color: #660000;
+    --icon-color: #ffa07a;
+}
+:root.ruby {
+    --primary-color: #e0115f;
+    --secondary-color: rgba(224, 17, 95, 0.7);
+    --highlight-color: #b00d4b;
+    --background-color: #3b001b;
+    --border-color: #66002d;
+    --icon-color: #f78ba7;
+}
+:root.noctura {
+    --primary-color: #1a1aff;
+    --secondary-color: rgba(26, 26, 255, 0.7);
+    --highlight-color: #0000e6;
+    --background-color: #0d0d1a;
+    --border-color: #1a1a4d;
+    --icon-color: #6666ff;
+}
+:root.sapphire {
+    --primary-color: #0f52ba;
+    --secondary-color: rgba(15, 82, 186, 0.7);
+    --highlight-color: #0d47a1;
+    --background-color: #001a33;
+    --border-color: #003366;
+    --icon-color: #80bfff;
+}
+:root.light {
+    --primary-color: #ffffff;
+    --secondary-color: rgba(255, 255, 255, 0.7);
+    --highlight-color: #f2f2f2;
+    --background-color: #e6e6e6;
+    --border-color: #cccccc;
+    --icon-color: #999999;
+}
+:root.christmas {
+    --primary-color: #ff0000;
+    --secondary-color: rgba(255, 0, 0, 0.7);
+    --highlight-color: #cc0000;
+    --background-color: #006400;
+    --border-color: #003300;
+    --icon-color: #ffcccb;
+}
+:root.fire {
+    --primary-color: #ff4500;
+    --secondary-color: rgba(255, 69, 0, 0.7);
+    --highlight-color: #e03a00;
+    --background-color: #330000;
+    --border-color: #660000;
+    --icon-color: #ffa07a;
 }
 
-body.techno .panel {
-  background-color: #6a0dad;
-}
-
-body.oceanic {
-  background-color: #00adb5;
-  color: #ffffff;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.oceanic .panel {
-  background-color: #008b8b;
-}
-
-body.hacker {
-  background-color: #000000; /* Black */
-  color: #00ff00; /* Green */
-  font-family: 'Courier New', monospace;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.hacker .panel {
-  background-color: #333333; /* Dark Grey */
-}
-
-body.galaxy {
-  background-color: #020024;
-  color: #f1f1f1;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.galaxy .panel {
-  background-color: #9b59b6;
-}
-
-body.cyberpunk {
-  background-color: #2e0044;
-  color: #00ff00;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.cyberpunk .panel {
-  background-color: #800080;
-}
-
-body.midnight {
-  background-color: #1a1a2e;
-  color: #ecf0f1;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.midnight .panel {
-  background-color: #34495e;
-}
-
-body.gaming {
-  background-color: #121212;
-  color: #ffcc00;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.gaming .panel {
-  background-color: #800080;
-}
-
-body.crimson {
-  background-color: #222222;
-  color: #dc143c;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.crimson .panel {
-  background-color: #8b0000;
-}
-
-body.halloween {
-  background-color: #000000;
-  color: #ff7f00;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.halloween .panel {
-  background-color: #ff7f00;
-}
-
-body.sunset {
-  background-color: #ff7f50;
-  color: #ffff00;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.sunset .panel {
-  background-color: #ff6347;
-}
-
-body.ruby {
-  background-color: #e0115f;
-  color: #ffffff;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.ruby .panel {
-  background-color: #9b111e;
-}
-
-body.light {
-  background-color: #ffffff;
-  color: #333333;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.light .panel {
-  background-color: #f0f0f0;
-}
-
-body.christmas {
-  background-color: #006400;
-  color: #ff0000;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.christmas .panel {
-  background-color: #008000;
-}
-body.fire {
-  background-color: #ff4500;
-  color: #ffffff;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 60px;
-  height: 100vh;
-  text-align: center;
-}
-
-body.fire .panel {
-  background-color: #b22222;
-}

@@ -1,7 +1,7 @@
 # Acceleration Experience the global internet using Acceleration, the most Accelerated Proxy in the world The best looking proxy there is with Apps and tab cloaking and over 100+ games for students
 
 
-![inpreview](https://github.com/xdevnightless/Acceleration/https://github.com/xdevnightless/Acceleration/blob/main/acceleration.png)
+![inpreview](https://raw.githubusercontent.com/xdevnightless/Acceleration/main/acceleration.png)
 
 
 

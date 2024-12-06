@@ -1,6 +1,6 @@
 # Acceleration Experience the global internet using Acceleration, the most Accelerated Proxy in the world The best looking proxy there is with Apps and tab cloaking and over 100+ games for students
 # Acceleration
-<h1 style="font-size: 72px; text-align: center; font-weight: bold; color: #000;">Acceleration</h1>
+<h1 style="font-size: 200px; text-align: center; font-weight: bold; color: #000;">Acceleration</h1>
 
 
 ![inpreview](https://raw.githubusercontent.com/xdevnightless/Acceleration/main/acceleration.png)

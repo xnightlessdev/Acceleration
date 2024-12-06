@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/xdevnightless/Acceleration/raw/main/monkey.png" alt="Favicon" width="300" height="300">
+  <img src="https://github.com/xdevnightless/Acceleration/raw/main/monkey.png" alt="Favicon" width="3000" height="3000">
 </p>
 
 

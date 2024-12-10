@@ -81,3 +81,9 @@
 [![Join us on Discord](https://invidget.switchblade.xyz/Kvwzdt4WzJ?theme=dark)](https://discord.gg/ZtqyuQBXt6)
 
 
+
+
+
+[![Join us on Discord](https://invidget.switchblade.xyz/Kvwzdt4WzJ?theme=dark)](https://discord.gg/xyRJwtBmMH)
+
+

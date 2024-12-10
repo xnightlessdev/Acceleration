@@ -78,6 +78,8 @@
 
 
 ## Join our Discord!
+[![Join us on Discord](https://invidget.switchblade.xyz/Kvwzdt4WzJ?theme=dark)](https://discord.gg/ZtqyuQBXt6
+
 )
 
 

@@ -1,3 +1,5 @@
+# Experience the web with Acceleration the fastest proxy for seamless browsing, privacy, and 100+ games and apps. Perfect for students and anyone seeking speed and security.
+
 
 
 

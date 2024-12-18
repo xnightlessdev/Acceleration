@@ -48,9 +48,7 @@
   <img src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/main/buttons/remade/render.svg" alt="Deploy on Render">
 </a>
 
-<a href="https://vercel.com/new/clone?repositoryurl=https://github.com/xdevnightless/Acceleration">
-  <img src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg" alt="Deploy with Vercel">
-</a>
+
 
 <a href="https://app.koyeb.com/deploy?type=git&repository=https://github.com/xdevnightless/Acceleration">
   <img src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg" alt="Deploy to Koyeb">
@@ -81,7 +79,7 @@
 
 
 ## Join our Discord!
-[![Join us on Discord](https://invidget.switchblade.xyz/Kvwzdt4WzJ?theme=dark)](https://discord.gg/ZtqyuQBXt6)
+[![Join us on Discord](https://invidget.switchblade.xyz/Kvwzdt4WzJ?theme=dark)](https://discord.gg/xyRJwtBmMH)
 
 
 

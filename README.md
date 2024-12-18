@@ -31,7 +31,7 @@
 | `💬 Widgetbot Integration` | Connect, chat, and collaborate seamlessly right in the app. |
 | `🎶 Built-In Music Player` | Add a soundtrack to your experience and make browsing even cooler! |
 | `📂 Tab System` | Use our tabs to play games or whahtever you want  easily with the integrated tab system. |
- | `🎥 Movies Site`	Enjoy access to our exclusive movies site, featuring a library of popular films and shows to stream directly within the app. | 
+ | `🎥 Movies Site` | 	Enjoy access to our exclusive movies site, featuring a library of popular films and shows to stream directly within the app. | 
    | `💽 Plugins` | On the Setting  page, Where plugins is you can browse a library of scripts that you can apply to Acceleration. Proxy Injection scripts affect web browsing, whilst Modules affect Acceleration itself. If you wan't to create your own modules or scripts, use the script editor to create and modify anything you want in Acceleration.|
 ## Credits: A thanks goes out to all of the people who have contributed to Acceleration.
 

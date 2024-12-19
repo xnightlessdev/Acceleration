@@ -35,8 +35,8 @@
    | `💽 Plugins` | On the Setting  page, Where plugins is you can browse a library of scripts that you can apply to Acceleration. Proxy Injection scripts affect web browsing, whilst Modules affect Acceleration itself. If you wan't to create your own modules or scripts, use the script editor to create and modify anything you want in Acceleration.|
 ## Credits: A thanks goes out to all of the people who have contributed to Acceleration.
 
-  <a href="https://github.com/Shadowproxynetwork/Shadownetwork/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=Shadowproxynetwork/Shadownetwork" alt="Shadow Network Contributors" />
+   <a href="https://github.com/xnightless/Shadownetwork/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=xnightless/Shadownetwork" alt="Shadow Network Contributors" />
   </a>
 
   <a href="https://github.com/xdevnightless/Acceleration/graphs/contributors">

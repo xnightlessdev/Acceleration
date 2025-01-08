@@ -1,20 +1,17 @@
 
-/* General Reset */
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: var(--primary-color);
 }
 
-/* Body Styling */
 body {
     font-family: Arial, sans-serif;
     background-color: var(--background-color);
     color: var(--primary-color);
 }
 
-/* Chrome Container */
 .chrome-container {
     display: flex;
     flex-direction: column;
@@ -24,7 +21,6 @@ body {
     border: 1px solid var(--border-color);
 }
 
-/* Tab Bar */
 .tab-bar {
     display: flex;
     align-items: center;
@@ -34,7 +30,6 @@ body {
     gap: 0.5rem;
 }
 
-/* Close Tab */
 .close-tab {
     margin-left: 0.5rem;
     font-size: 1.2rem;
@@ -48,7 +43,6 @@ body {
     color: var(--secondary-color);
 }
 
-/* Omnibox */
 .omnibox {
     display: flex;
     align-items: center;
@@ -90,7 +84,6 @@ body {
     transform: scale(1.1);
 }
 
-/* Navigation Icons */
 .navigation-icons button {
     font-size: 1.5rem;
     background: none;
@@ -111,7 +104,6 @@ body {
     cursor: not-allowed;
 }
 
-/* Iframe Container */
 .iframe-container {
     flex: 1;
     position: relative;
@@ -131,7 +123,6 @@ iframe.active {
     display: block;
 }
 
-/* Add Tab Button */
 .add-tab {
     display: flex;
     align-items: center;
@@ -157,7 +148,6 @@ iframe.active {
     transform: scale(1);
 }
 
-/* Tab Styling */
 .tab {
     display: flex;
     align-items: center;
@@ -183,7 +173,6 @@ iframe.active {
     transform: scale(1.03);
 }
 
-/* Tab Icon */
 .tab-icon {
     width: 16px;
     height: 16px;

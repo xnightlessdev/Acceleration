@@ -14,10 +14,9 @@
     background-size: 100%;
     margin: 0 auto;
     overflow-y: auto;
-    color: var(--text-color); /* Set text color to white */
+    color: var(--text-color); 
   }
   
-  /* Settings Container */
   .settings-container {
     padding-top: 100px;
     width: 100%; 
@@ -26,7 +25,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1em; /* Adjust the gap between items */
+    gap: 1em;
     box-sizing: border-box;
   }
   
@@ -35,12 +34,12 @@
     border-radius: 8px;
     padding: 20px;
     color: #b7b7b7;
-    margin: 0.5%; /* Spacing between panels */
+    margin: 0.5%; 
     display: table; 
     box-sizing: border-box;
-    width: 48%; /* Adjust panel width to fit two per row */
+    width: 48%; 
     font-family: Arial;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add a slight shadow */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
   }
   
   .panel label {
@@ -55,7 +54,7 @@
   .panel button {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px; /* Spacing between form elements */
+    margin-bottom: 10px; 
     border-radius: 5px;
   }
   
@@ -64,7 +63,7 @@
     border: none;
     color: var(--text-color);
     cursor: pointer;
-    margin-bottom: 20px; /* Reduce bottom margin for cleaner layout */
+    margin-bottom: 20px; 
   }
   
   .panel button:hover {
@@ -73,23 +72,21 @@
   
   input,
   select {
-    background: var(--background-color); /* Consistent background */
+    background: var(--background-color); 
     color: var(--text-color);
   }
   
   input:focus,
   select:focus {
-    background-color: var(--accent-color-light); /* Highlight on focus */
+    background-color: var(--accent-color-light); 
   }
   
-  /* Mobile responsiveness */
   @media (max-width: 768px) {
     .panel {
-      width: 100%; /* Full width on smaller screens */
+      width: 100%; 
     }
   }
   
-  /* Navbar styles */
  
   .shadow-navbar {
     display: flex;

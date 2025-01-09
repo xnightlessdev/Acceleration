@@ -1,5 +1,6 @@
 
 
+/* Text Styling */
 .text {
   position: relative;
   top: -20vh;
@@ -18,6 +19,7 @@ body {
   align-items: center;
 }
 
+/* Hover Effect for Text */
 .text:hover {
   position: relative;
   font-size: 20vh;
@@ -28,6 +30,7 @@ body {
   border-radius: 0px 0px 5px 5px;
 }
 
+/* Media Query for Portrait Orientation */
 @media (orientation: portrait) {
   .text {
       position: relative;
@@ -41,6 +44,7 @@ body {
   }
 }
 
+/* Text Animation */
 .text::before {
   content: attr(data-text);
   position: absolute;
@@ -53,6 +57,7 @@ body {
   filter: drop-shadow(0 0 20px var(--highlight-color)) drop-shadow(0 0 50px var(--highlight-color));
 }
 
+/* Keyframes for Animation */
 @keyframes animate {
   0%, 10%, 100% {
       width: 0;

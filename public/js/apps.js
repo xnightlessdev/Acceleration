@@ -1,4 +1,3 @@
-
 fetch("/apps.json")
     .then((response) => response.json())
     .then((apps) => {

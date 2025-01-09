@@ -9,11 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta name="description"
-        content="Experience the web with Acceleration the fastest proxy for seamless browsing, privacy, and 100+ games and apps. Perfect for students and anyone seeking speed and security.
+        content="Acceleration, Experience the global internet using Acceleration, the fastest Proxy in the world The best looking proxy there is with Apps and tab cloaking surf the web with blazing speeds with Acceleration!" />
 
-" />
-
-    <title>Home |  Acceleration </title>
+    <title>Home | Acceleration </title>
     <link rel="icon" href="favicon.png" type="image/png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -22,7 +20,7 @@
     <link rel="stylesheet" href="/css/themes.css" />
     <script src="/js/themes.js"></script>
     <script src="/js/settings.js"></script>
-      
+
 
     <style>
         * {
@@ -115,40 +113,39 @@
             }
         });
     </script>
-
-   <ul class="navbar">
-
-        <li class="nav-item">
-            <nav class="shadow-navbar">
-                <ul>
-                    <li><a onclick="page('/home.html')"><i class="fa-solid fa-house"></i> <span>Home</span></a></li>
-                    <li><a onclick="page('/games.html')"><i class="fa-solid fa-gamepad"></i> <span>Games</span></a></li>
-                    <li><a onclick="page('/apps.html')"><i class="fas fa-mobile-alt"></i> <span>Apps</span></a></li>
-                    <li><a onclick="page('/tabs.html', true)"><i class="fa-solid fa-plus"></i> <span>Tabs</span></a></li>
-                    <li><a onclick="page('/about.html')"><i class="fa-solid fa-user"></i> <span>About Us</span></a></li>
-                    <li><a onclick="page('/settings.html')"><i class="fas fa-cog"></i> <span>Settings</span></a></li>
-                </ul>
-            </nav>
-
-    </ul>
+ 
+    
+    <li class="nav-item">
+        <nav class="shadow-navbar">
+            <ul>
+                <li><a onclick="page('/home.html')"><i class="fa-solid fa-house"></i> <span>Home</span></a></li>
+                <li><a onclick="page('/games.html')"><i class="fa-solid fa-gamepad"></i> <span>Games</span></a></li>
+                <li><a onclick="page('/apps.html')"><i class="fas fa-mobile-alt"></i> <span>Apps</span></a></li>
+                <li><a onclick="page('/chat.html')"><i class="fas fa-comment"></i> <span>Chat</span></a></li>
+                <li><a onclick="page('/tabs.html', true)"><i class="fa-solid fa-plus"></i> <span>Tabs</span></a></li>
+                <li><a onclick="page('/about.html')"><i class="fa-solid fa-user"></i> <span>About Us</span></a></li>
+                <li><a onclick="page('/settings.html')"><i class="fas fa-cog"></i> <span>Settings</span></a></li>
+            </ul>
+        </nav>
+    </li>
 
     <link href="/css/index.css" rel="stylesheet">
     <iframe id="frame" src="/home.html"></iframe>
     <script>
-        if(localStorage.getItem("closeProt")) window.onbeforeunload = function (e) { e.preventDefault(); return true };
-        const cloak = JSON.parse(localStorage.getItem("cloak")) ?? {title: "Acceleration", icon: ""};
+        if (localStorage.getItem("closeProt")) window.onbeforeunload = function (e) { e.preventDefault(); return true };
+        const cloak = JSON.parse(localStorage.getItem("cloak")) ?? { title: "Acceleration", icon: "" };
         document.onload = loadCloak(cloak);
         window.hideNav = () => {
-            document.querySelector('.navbar').classList.add('searched');
+            document.querySelector('.nav-item').classList.add('searched');
         }
         window.showNav = () => {
-            document.querySelector('.navbar').classList.remove('searched');
+            document.querySelector('.nav-item').classList.remove('searched');
         }
 
         const params = new URLSearchParams(window.location.search);
         if (params.has('page')) page(params.get('page'));
         function page(link, hideNavbar) {
-            if(hideNavbar || link == "/tabs.html") hideNav();
+            if (hideNavbar || link == "/tabs.html" || link == "/chat.html") hideNav();
             else showNav();
             document.getElementById('frame').src = link;
             const url = new URL(window.location.href);

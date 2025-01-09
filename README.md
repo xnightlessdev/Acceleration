@@ -30,7 +30,7 @@
  https://shadowaccerltion.netlify.app/
 ## Credits: A huge thanks goes out to all of the people who have contributed to Acceleration.
 
-![Contrib](https://contrib.rocks/image?repo=Shadowproxynetwork/Shadownetwork) <a href="">
+![Contrib](https://contrib.rocks/image?repo=Shadowproxynetwork/Shadownetwork) <a href="https://github.com/xdevnightless/Acceleration/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=xdevnightless/Acceleration" />
 </a>
 

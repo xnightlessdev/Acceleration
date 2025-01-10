@@ -86,54 +86,55 @@
     }
   }
   
-  .nav-item {
-      position: fixed;
-      top: 0;
-      right: 0;
-      z-index: 1000;
-      transition: top 0.3s ease-in-out;
-  }
+.nav-item {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    transition: top 0.3s ease-in-out;
+}
 
-  .nav-item.searched {
+.nav-item.searched {
     top: -9vh;
     transition: top 0.3s ease-in-out;
-  }
+}
 
-  .nav-item.searched:hover {
+.nav-item.searched:hover {
     top: 0;
-  }
+}
 
-  .shadow-navbar {
-      background: rgba(0, 0, 0, 0.8);
-      border-bottom-left-radius: 15px;
-      border-left: white 2px solid;
-      border-bottom: white 2px solid;
-      padding: 10px;
-      display: flex;
-      justify-content: flex-end;
-  }
+.shadow-navbar {
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom-left-radius: 15px;
+    border-left: white 2px solid;
+    border-bottom: white 2px solid;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
 
-  .shadow-navbar ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: row;
-  }
+.shadow-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
 
-  .shadow-navbar li {
-      margin: 0 5px;
-  }
+.shadow-navbar li {
+    margin: 0 5px;
+}
 
-  .shadow-navbar a {
-      color: white;
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      padding: 8px 15px;
-      border-radius: 10px;
-      transition: background-color 0.3s;
-  }
+.shadow-navbar a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
 
 li.nav-item img {
     height: 100%;
@@ -152,10 +153,11 @@ li.nav-item {
 
 li.nav-item a {
     display: block;
-    transition: all .25s;
+    transition: all 0.25s;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 li.nav-item a:hover {

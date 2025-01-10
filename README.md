@@ -2,6 +2,9 @@
 
 
 
+<p align="center">
+  <img src="https://github.com/xdevnightless/Acceleration/raw/main/Backround.png" alt=Backround" width="300" height="300">
+</p>
 
 > [!IMPORTANT]
 > If you fork this project, consider giving it a star in the original repository!

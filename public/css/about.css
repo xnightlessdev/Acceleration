@@ -1,6 +1,5 @@
 
 
-/* Body Styling */
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -9,7 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Scrollbar Styling */
 ::-webkit-scrollbar {
   width: 12px;
   background-color: var(--background-color);
@@ -27,7 +25,6 @@ body {
   background-color: var(--highlight-color);
 }
 
-/* Section Styling */
 .projects, .developers {
   padding: 3rem 4rem;
   padding-top: 0;
@@ -40,7 +37,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Grid Layout */
 .project-grid, .developer-grid {
   display: flex;
   flex-wrap: wrap;
@@ -52,7 +48,6 @@ body {
   gap: 1.5rem;
 }
 
-/* Card Styling */
 .project-card {
   background: var(--background-color);
   border-radius: 10px;
@@ -63,15 +58,14 @@ body {
 }
 
 .project-card.large {
-  flex: 1 1 600px; /* Larger cards */
+  flex: 1 1 600px; 
 }
 
 .project-card.small {
-  flex: 1 1 250px; /* Smaller cards for developers */
+  flex: 1 1 250px; 
   text-align: center;
 }
 
-/* Card Hover Effects */
 .project-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
@@ -97,7 +91,6 @@ body {
   font-size: 0.9rem;
 }
 
-/* Button Styling */
 .project-card .github-button,
 .project-card .discord-button {
   margin-top: 1rem;
@@ -131,7 +124,6 @@ body {
   transform: rotate(360deg);
 }
 
-/* Developer Section */
 .developers {
   border-top: 2px solid var(--primary-color); 
 }

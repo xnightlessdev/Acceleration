@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/xdevnightless/Acceleration/raw/main/Backround.png" alt=Backround" width="300" height="300">
+  <img src="https://github.com/xdevnightless/Acceleration/raw/main/Backround.png" alt=Backround" width="500" height="500">
 </p>
 
 > [!IMPORTANT]

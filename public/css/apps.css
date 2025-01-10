@@ -10,6 +10,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-color: black;
+  color: white;
+  margin-top: 15vh;
 }
 
 .center {

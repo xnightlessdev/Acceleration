@@ -9,13 +9,13 @@
   body {
     font-family: var(--font-family);
     background-repeat: no-repeat;
-    background-color: var(--background-color);
+    background-image: linear-gradient(to right, var(--background-gradient));
     background-size: 100%;
     margin: 0 auto;
     overflow-y: auto;
     color: var(--text-color); 
   }
-  
+
   .settings-container {
     padding-top: 100px;
     width: 100%; 
@@ -72,7 +72,7 @@
   input,
   select {
     background: var(--background-color); 
-    color: var(--text-color);
+    color: var(--text-color); 
   }
   
   input:focus,

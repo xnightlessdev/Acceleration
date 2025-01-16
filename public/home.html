@@ -4,7 +4,7 @@
 <script src="/js/register-sw.js" defer></script>
 <script src="/js/search.js" defer></script>
 <link href="/css/index.css" rel="stylesheet">
-<link rel="stylesheet" href="/css/themes.css" />
+<link rel="stylesheet" href="css/themes.css" />
 <script src="/js/themes.js"></script>
 <form class="searchform" id="searchform">
     <form class="searchform" id="searchform" method="get" action="https://www.google.com/search">
@@ -40,32 +40,6 @@
                 text-align: center;
                 color: var(--primary-color);
                 text-shadow: 3px 6px 2px var(--secondary-color);
-            }
-
-            #searchbar {
-                height: 50px;
-                width: 70%;
-                position: absolute;
-                bottom: 45%;
-                left: 15%;
-                padding: 3px;
-                border-radius: 15px;
-                background: transparent;
-                border: 2px solid black;
-                text-align: center;
-                color: var(--primary-color);
-                border: 3px solid var(--primary-color);
-                transition: all 1s;
-                filter: drop-shadow(0 0 20px #151414) drop-shadow(0 0 50px #151414);
-            }
-
-            #searchbar:hover {
-                transform: translateY(-5%);
-                background-color: #151414;
-            }
-
-            #searchbar::placeholder {
-                color: var(--primary-color);
             }
 
             body {
@@ -104,38 +78,45 @@
             }
 
             #searchbar {
-                height: 50px;
-                width: 70%;
+                height: 70px;
+                width: 80%;
                 position: absolute;
                 bottom: 45%;
-                left: 15%;
+                left: 11%;
                 padding: 10px;
-                border-radius: 30px;
+                border-radius: 50px;
                 background: rgba(0, 0, 0, 0.6);
                 border: 3px solid var(--primary-color);
-            }
-
-            h1,
-            h2,
-            h3 {
-                color: var(--primary-color);
                 text-align: center;
-                font-size: 1.2rem;
-                transition: all 0.5s ease;
-                filter: drop-shadow(0 0 20px var(--primary-color));
-            }
+                background: transparent;
+                transition: all 1s;
+                filter: drop-shadow(0 0 20px #151414) drop-shadow(0 0 50px #151414);
+                transform: translateY(-5%);
+                background-color: #151414;
 
-            #searchbar:hover {
-                transform: translateY(-5%) scale(1.05);
-                background-color: rgba(21, 20, 20, 0.9);
-                box-shadow: 0 0 50px var(--highlight-color);
-            }
+}
 
-            #searchbar::placeholder {
-                a {
-                    color: var(--secondary-color);
+                h1,
+                h2,
+                h3 {
+                    color: var(--primary-color);
+                    text-align: center;
+                    font-size: auto;
+                    transition: all 0.5s ease;
+                    filter: drop-shadow(0 0 20px var(--primary-color));
                 }
-            }
+
+                #searchbar:hover {
+                    transform: translateY(-5%) scale(1.05);
+                    background-color: rgba(21, 20, 20, 0.9);
+                    box-shadow: 0 0 50px var(--highlight-color);
+                }
+
+                #searchbar::placeholder {
+                    a {
+                        color: var(--secondary-color);
+                    }
+                }
 
             .particles {
                 display: flex;

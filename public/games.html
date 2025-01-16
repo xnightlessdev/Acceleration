@@ -37,6 +37,23 @@
     </style>
     <title>Acceleration Games</title>
 </head>
+<canvas id="canvas"></canvas>
+
+<script src="js/starback.js"></script>
+<script>
+  const canvas = document.getElementById("canvas");
+  const starback = new Starback(canvas, {
+    width: document.body.clientWidth,
+    height: document.body.clientHeight,
+    type: "dot",
+    quantity: 150,
+    randomOpacity: false,
+    starSize: [1, 2],
+    starColor: '#390e6e',
+    backgroundColor: 'transparent'
+
+  });
+</script>
 
 <body>
     <div class="search-bar" style="display: flex; justify-content: center;">

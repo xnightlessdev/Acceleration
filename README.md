@@ -6,7 +6,7 @@
 > [!IMPORTANT]
 > If you fork this project, consider giving it a star in the original repository!
 
-**Join Our [Discord Community](https://discord.gg/Kvwzdt4WzJ) for support, more links, and an active community!**
+**Join Our [Discord Community](https://discord.gg/acceleration) for support, more links, and an active community!**
 
 
 
@@ -27,7 +27,7 @@
 | `🎶 Built-In Music Player` | Add a soundtrack to your experience and make browsing even cooler! |
 | `📂 Tab System` | Use our tabs to play games or whahtever you want  easily with the integrated tab system. |
 | `🔗 Testing Link` | Use our testing link to test the site so you know what to suggest for our site |
- https://shadowaccerltion.netlify.app/
+ https://devman.goated.fr.8bit.ca/
 ## Credits: A huge thanks goes out to all of the people who have contributed to Acceleration.
 
 ![Contrib](https://contrib.rocks/image?repo=Shadowproxynetwork/Shadownetwork) <a href="https://github.com/xdevnightless/Acceleration/graphs/contributors">

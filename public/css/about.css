@@ -76,19 +76,10 @@ body {
   margin-bottom: 1rem;
   font-size: 1.8rem;
 }
-
-.project-card.small h3 {
-  font-size: 1.5rem;
-}
-
 .project-card p {
   color: var(--primary-color);
   font-size: 1rem;
   line-height: 1.5;
-}
-
-.project-card.small p {
-  font-size: 0.9rem;
 }
 
 .project-card .github-button,
@@ -126,4 +117,7 @@ body {
 
 .developers {
   border-top: 2px solid var(--primary-color); 
+}
+.titlecard {
+  margin-bottom: 2vh;
 }

@@ -6,9 +6,9 @@
 .text {
   position: relative;
   top: -20vh;
-  font-size: 20vh;
+  font-size: 18vh;
   color: var(--primary-color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   text-transform: uppercase;
   border-radius: 0px 0px 5px 5px;
@@ -19,16 +19,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.text:hover {
-  position: relative;
-  font-size: 20vh;
-  color: var(--primary-color);
   font-family: "Roboto", sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  border-radius: 0px 0px 5px 5px;
+  height: 100vh;
 }
 
 @media (orientation: portrait) {
@@ -63,4 +55,41 @@ body {
   70%, 90% {
     width: 100%;
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#frame {
+  border: 0px solid black;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+  bottom: 0px;
+  left: 0px;
+}
+
+li.icon img {
+  size: 100%;
+  color: white;
+  display: block;
+  color: white;
+  transition: all 1s;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.icon {
+  float: left;
+  cursor: pointer !important;
+}
+
+li.icon:hover {
+  background-color: #444;
+  border-radius: 15px;
 }

@@ -12,98 +12,100 @@
     <script src="/js/search.js" defer></script>
     <script src="/js/themes.js"></script>
     <style>
-        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
 
-        body {
-            font-family: "Inter", sans-serif;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: var(--primary-color);
-            overflow: hidden;
-        }
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
 
-        #title {
-            width: 100%;
-            position: absolute;
-            bottom: 60%;
-            left: 0;
-            text-align: center;
-            font-size: 3rem;
-            font-weight: bold;
-            color: var(--primary-color);
-            text-shadow: 3px 6px 10px var(--secondary-color), 0 0 20px var(--highlight-color);
-            letter-spacing: 2px;
-            animation: glow 2s infinite alternate;
-        }
+      body {
+        font-family: "Inter", sans-serif;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--primary-color);
+        overflow: hidden;
+      }
 
-        @keyframes glow {
-            0% {
-                text-shadow: 3px 6px 10px var(--highlight-color), 0 0 20px var(--primary-color);
-            }
-            100% {
-                text-shadow: 3px 6px 10px var(--highlight-color), 0 0 40px var(--highlight-color);
-            }
-        }
+      #title {
+        width: 100%;
+        position: absolute;
+        bottom: 60%;
+        left: 0;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        color: var(--primary-color);
+        text-shadow: 3px 6px 10px var(--secondary-color), 0 0 20px var(--highlight-color);
+        letter-spacing: 2px;
+        animation: glow 2s infinite alternate;
+      }
 
-        #searchbar {
-            height: 70px;
-            width: 80%;
-            position: absolute;
-            bottom: 45%;
-            left: 11%;
-            padding: 10px;
-            border-radius: 50px;
-            background: rgba(0, 0, 0, 0.6);
-            border: 3px solid var(--primary-color);
-            text-align: center;
-            background: transparent;
-            transition: all 1s;
-            filter: drop-shadow(0 0 20px #151414) drop-shadow(0 0 50px #151414);
-            transform: translateY(-5%);
-            background-color: #151414;
+      @keyframes glow {
+        0% {
+          text-shadow: 3px 6px 10px var(--highlight-color), 0 0 20px var(--primary-color);
         }
+        100% {
+          text-shadow: 3px 6px 10px var(--highlight-color), 0 0 40px var(--highlight-color);
+        }
+      }
 
-        #searchbar:hover {
-            transform: translateY(-5%) scale(1.05);
-            background-color: rgba(21, 20, 20, 0.9);
-            box-shadow: 0 0 50px var(--highlight-color);
-        }
+      #searchbar {
+        height: 10vh;
+        width: 80vw;
+        position: absolute;
+        bottom: 45%;
+        left: 11%;
+        padding: 10px;
+        border-radius: 50px;
+        background: rgba(0, 0, 0, 0.6);
+        border: 3px solid var(--primary-color);
+        text-align: center;
+        background: transparent;
+        transition: all 1s;
+        filter: drop-shadow(0 0 20px #151414) drop-shadow(0 0 50px #151414);
+        transform: translateY(-5%);
+        background-color: #151414;
+      }
 
-        .particles {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: -1;
-        }
+      #searchbar:hover {
+        transform: translateY(-5%) scale(1.05);
+        background-color: rgba(21, 20, 20, 0.9);
+        box-shadow: 0 0 50px var(--highlight-color);
+      }
 
-        .particle {
-            position: absolute;
-            width: 15px;
-            height: 15px;
-            background-color: var(--primary-color);
-            border-radius: 50%;
-            animation: snowflakes-fall 15s linear infinite, snowflakes-shake 5s ease-in-out infinite;
-            opacity: 0.8;
-        }
+      .particles {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: -1;
+      }
 
-        @keyframes snowflakes-fall {
-            100% {
-                transform: translateY(100vh);
-                top: 100%;
-            }
-        }
+      .particle {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background-color: var(--primary-color);
+        border-radius: 50%;
+        animation: snowflakes-fall 15s linear infinite, snowflakes-shake 5s ease-in-out infinite;
+        opacity: 0.8;
+      }
 
-        @keyframes snowflakes-shake {
-            50% {
-                transform: translateX(50px) rotate(15deg);
-            }
+      @keyframes snowflakes-fall {
+        100% {
+          transform: translateY(100vh);
+          top: 100%;
         }
+      }
+
+      @keyframes snowflakes-shake {
+        50% {
+          transform: translateX(50px) rotate(15deg);
+        }
+      }
+
     </style>
 </head>
 <body>
